@@ -1,0 +1,31 @@
+{
+    "list": {
+        "columns": {
+            "style": [ // id列は書かない
+                {
+                    "className": "col-6",
+                    "icon": true
+                },
+                {
+                    "className": "col-6"
+                },
+                {
+                    "glotName": "listComment",
+                    "className": "col-12"
+                }
+            ],
+            "poiFields": [
+                "id",
+                "#category",
+                "#parent.name,name",
+                "#title"
+            ],
+            "actFields": [ //#付きはOSMタグ、ただし#categoryのみタグからのカテゴリ名判定結果
+                "id", // 最初の列はid固定(#idにするとOSMのPoiでユニークになりActが欠落する)
+                "#category",
+                "#name",
+                "title"
+            ]
+        }
+    }
+}
