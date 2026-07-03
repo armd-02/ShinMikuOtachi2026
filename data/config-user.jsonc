@@ -58,11 +58,10 @@
         "textViewZoom": 14 // アイコンに文字を表示するズームレベル
     },
     "poiView": {
-        "poiActLoad": false, // 起動時にActivityを読み込むか
-        "poiFilter": "", // poiView時の表示範囲 all:画面外も表示 / "":画面内だけを表示
+        "poiActLoad": true, // 起動時にActivityを読み込むか
         "poiZoom": {
             // アイコンの前後位置は後ろの方が手前になる
-            "ShinMikuOtachi2026": 13,
+            //"ShinMikuOtachi2026": 13,
             "activity": 13
         },
         "editZoom": {
@@ -81,15 +80,15 @@
     },
     "listTable": {
         "backgroundImage": "./image/bgimage.png",
-        "category": "tags", // カテゴリ選択 / activity:アクティビティリスト / tags:タグ / menu: タグベースの手動カテゴリ
-        "target": "", // targets:指定したtargetだけ表示 / activity:google sheetsのデータのみ表示 // 空:両方表示
-        "allActs": false, // true: 全てのactivityを常に表示 / false: 画面内のActivityのみ表示
+        "category": "activity", // カテゴリ選択 / activity:アクティビティリスト / tags:タグ / menu: タグベースの手動カテゴリ
+        "target": "activity", // targets:指定したtargetだけ表示 / activity:google sheetsのデータのみ表示 // 空:両方表示
+        "allActs": true, // true: 全てのactivityを常に表示 / false: 画面内のActivityのみ表示
         "playback": {
             "view": false,
             "zoomLevel": 15,
             "timer": 4000
         },
-        "download": true,
+        "download": false,
         "csvColumn": [ // ダウンロードするCSVの項目
             "id",
             "categoryJa",
@@ -104,7 +103,7 @@
     },
     "thumbnail": {
         "use": true,
-        "limits": 16, // 画像の制限数
+        "limits": 32, // 画像の制限数
         "slideThumbWidth": "320",
         "modalThumbWidth": "800"
     },
@@ -113,8 +112,8 @@
         "targetName": "activity"
     },
     "static": {
-        "use": false,
-        "osmjsons": []
+        "use": true, // true:静的データを利用する / false:OverpassAPIを利用する
+        "osmjsons": ["./data/stores.json"]
     },
     "wikipedia": {
         "marker": "wikipedia.svg",
@@ -153,6 +152,7 @@
                 "linkto": "https://www.openstreetmap.org/about",
                 "divider": true
             },
+            /*
             {
                 "glot-model": "UseOVCacheYes",
                 "linkto": "javascript:cMapMaker.setCacheMode(true)",
@@ -163,6 +163,7 @@
                 "linkto": "javascript:cMapMaker.setCacheMode(false)",
                 "divider": false
             }
+            */
         ],
         "mainSystem": [
             /*
@@ -180,11 +181,13 @@
         ],
         // 詳細表示のハンバーガーメニュー
         "modal": [
+            /*
             {
                 "glot-model": "act_add",
                 "linkto": "javascript:modalActs.edit({form:'Playgrounds'})",
                 "divider": false
             },
+            */
             {
                 "glot-model": "copyShareLink",
                 "linkto": "javascript:cMapMaker.shareURL()",
@@ -198,12 +201,14 @@
         ],
         // 詳細モーダルの追加ボタン
         "activities": [
+            /*
             {
                 "btn_class": "btn btn-light btn-lg border-secondary w-50 m-2 p-1",
                 "code": "modalActs.edit({form:'Playgrounds'})",
                 "icon_class": "fas fa-clone",
                 "btn_glot_name": "act_add"
             }
+            */
         ],
         "editActivity": [
             {

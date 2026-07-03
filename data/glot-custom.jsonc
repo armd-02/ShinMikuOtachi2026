@@ -49,8 +49,8 @@
         "en": "💬 "
     },
     "listTitle": {
-        "ja": "公園・遊具リスト",
-        "en": "Park/Playground List"
+        "ja": "店舗・施設リスト",
+        "en": "Store/Facility List"
     },
     "activities": {
         "ja": "活動履歴",
@@ -68,81 +68,25 @@
         "ja": "写真URLにWikimedia Commonsを指定する時は、タイトルを入力してください(例 File:遊具名.jpg)",
         "en": "When specifying Wikimedia Commons for the photo URL, enter the title (e.g. File: Play equipment name.jpg)"
     },
+    "act_date": {
+        "ja": "確認日",
+        "en": "Disaster Date"
+    },
+    "act_address": {
+        "ja": "住所",
+        "en": "Address"
+    },
+    "act_genre": {
+        "ja": "ジャンル",
+        "en": "Genre"
+    },
+    "act_keyword": {
+        "ja": "キーワード",
+        "en": "keyword"
+    },
     "act_memo": {
-        "ja": "詳細メモ",
-        "en": "Detailed Memo"
-    },
-    "act_score": {
-        "ja": "評価",
-        "en": "Score"
-    },
-    "act_score_1": {
-        "ja": "(未評価)",
-        "en": "(Not rated)"
-    },
-    "act_score_2": {
-        "ja": "☆1: 行かない方が良い（危険など）",
-        "en": "☆1: Not recommended (dangerous, etc.)"
-    },
-    "act_score_3": {
-        "ja": "☆2: おすすめしない",
-        "en": "☆2: Not recommended"
-    },
-    "act_score_4": {
-        "ja": "☆3: 普通に使えます",
-        "en": "☆3: Usable"
-    },
-    "act_score_5": {
-        "ja": "☆4: おすすめ",
-        "en": "☆4: Recommended"
-    },
-    "act_score_6": {
-        "ja": "☆5: かなりおすすめ",
-        "en": "☆5: Highly recommended"
-    },
-    "act_good_points": {
-        "ja": "良い点",
-        "en": "Good Points"
-    },
-    "act_good_points_1": {
-        "ja": "見守りやすい",
-        "en": "Easy to supervise"
-    },
-    "act_good_points_2": {
-        "ja": "遊具が多い",
-        "en": "Lots of playground equipment"
-    },
-    "act_good_points_3": {
-        "ja": "広い",
-        "en": "Spacious"
-    },
-    "act_good_points_4": {
-        "ja": "静か",
-        "en": "Quiet"
-    },
-    "act_good_points_5": {
-        "ja": "日陰がある",
-        "en": "Has shade"
-    },
-    "act_good_points_6": {
-        "ja": "ベンチで休みやすい",
-        "en": "Easy to rest on benches"
-    },
-    "act_good_points_7": {
-        "ja": "小さい子向き",
-        "en": "Good for small children"
-    },
-    "act_good_points_8": {
-        "ja": "小学生も遊べる",
-        "en": "Suitable for elementary school children"
-    },
-    "act_good_points_9": {
-        "ja": "写真よりきれい",
-        "en": "Nicer than the photos"
-    },
-    "act_good_points_10": {
-        "ja": "駅・バス停から近い",
-        "en": "Close to a station or bus stop"
+        "ja": "💬",
+        "en": "💬"
     },
     "act_official_url": {
         "ja": "公式サイトURL",

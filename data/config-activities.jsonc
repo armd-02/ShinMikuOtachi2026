@@ -6,7 +6,7 @@
             "form": {
                 "category": {
                     "glot": "act_genre",
-                    "type": "select",
+                    "type": "text",
                     "gsheet": "category"
                 },
                 "title": {
