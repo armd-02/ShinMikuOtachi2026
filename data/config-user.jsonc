@@ -20,7 +20,7 @@
                 34.77
             ]
         ],
-        "initZoom": 15,
+        "initZoom": 14.5,
         "maxZoom": 23,
         "detailZoom": 18, // モーダルダイアログ表示時のズームサイズ
         "textFont": [

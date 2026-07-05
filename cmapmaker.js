@@ -131,7 +131,6 @@ class CMapMaker {
                     // document.title = glot.get("site_title"); // Google検索のインデックス反映が読めないので一旦なし
                     winCont.setSidebar(Conf.sideBar.initView) // サイドバーの初期表示設定
                     cMapMaker.clearDatail() // 詳細モーダルの内容をクリア
-                    this.changeMode("map");
                     
                     const init_close = function () {
                         let cat = (UrlParams.category !== "" && UrlParams.category !== undefined) ? UrlParams.category : Conf.selectItem.default;
