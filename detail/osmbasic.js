@@ -83,6 +83,16 @@ class OSMbasic {
             }
         }
 
+        // write twitter(X)
+        let twitter = [tags.twitter, tags["contact:twitter"]].filter((a) => a !== undefined)[0];
+        if (twitter !== undefined) {
+            twitter = this.getTwitterProfileUrl(twitter);
+            if (twitter !== null) {
+                html += `<div class="flex-row mt-1 me-3"> <i class="fa-brands fa-twitter"></i> <a href="${twitter[0]}" target="_new">${twitter[1]}</a></div>`;
+                elements++;
+            }
+        }
+
         // write tel
         if (tags.phone !== undefined) {
             let phone = tags.phone
@@ -199,4 +209,47 @@ class OSMbasic {
             return null;
         }
     }
+
+    // twitterのURLとユーザーネームを取得
+    getTwitterProfileUrl(input) {
+        const urlPattern = /(?:https?:\/\/)?(?:www\.)?x\.com\/([a-zA-Z0-9_]+)/;
+        const usernamePattern = /^[a-zA-Z0-9_]+$/;
+        const match = input.match(urlPattern);
+
+        if (match && match[1]) {
+            // 入力がURLの場合、ユーザー名を抽出し、配列にして返す
+            return [input, match[1]];
+        } else if (input.match(usernamePattern)) {
+            // 入力がユーザー名の場合、URLを生成して配列にして返す
+            return [`https://x.com/${input}/`, input];
+        } else {
+            // 入力がどちらでもない場合、nullを返す
+            return null;
+        }
+    }
+
+    // X/TwitterのURLとユーザーネームを取得
+    getTwitterProfileUrl(input) {
+        if (!input || typeof input !== 'string') return null;
+
+        const value = input.trim();
+        const usernamePattern = /^@?([a-zA-Z0-9_]{1,15})$/;         // @username に対応
+        const urlPattern = /^(?:https?:\/\/)?(?:www\.)?(?:x\.com|twitter\.com)\/([a-zA-Z0-9_]{1,15})(?:\/)?(?:\?.*)?$/;        // x.com / twitter.com のプロフィールURLに対応
+        const urlMatch = value.match(urlPattern);
+
+        if (urlMatch && urlMatch[1]) {
+            const username = urlMatch[1];
+            const reservedNames = ['home', 'explore', 'notifications', 'messages', 'i', 'settings', 'login'];            // 予約っぽいパスは除外
+            if (reservedNames.includes(username.toLowerCase())) return null;
+            return [`https://x.com/${username}/`, username];
+        }
+
+        const usernameMatch = value.match(usernamePattern);
+        if (usernameMatch && usernameMatch[1]) {
+            const username = usernameMatch[1];
+            return [`https://x.com/${username}/`, username];
+        }
+        return null;
+    }
+
 }

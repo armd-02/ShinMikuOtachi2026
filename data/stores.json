@@ -2,1397 +2,1406 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.62.11 87bfad18",
   "osm3s": {
-    "timestamp_osm_base": "2026-07-03T13:10:01Z",
+    "timestamp_osm_base": "2026-07-07T12:57:30Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
-    {
-      "type": "node",
-      "id": 346120930,
-      "lat": 34.7375647,
-      "lon": 135.4829803,
-      "tags": {
-        "KSJ2:LIN": "宝塚線",
-        "KSJ2:STN": "三国",
-        "name": "三国",
-        "name:en": "Mikuni",
-        "name:ja": "三国",
-        "name:ja_rm": "Mikuni",
-        "name:ko": "미쿠니",
-        "note": "National-Land Numerical Information (Railway) 2007, MLIT Japan",
-        "note:ja": "国土数値情報（鉄道データ）平成19年　国土交通省",
-        "public_transport": "station",
-        "railway": "station",
-        "source_ref": "http://nlftp.mlit.go.jp/ksj/jpgis/datalist/KsjTmplt-N02-v1_1.html",
-        "url": "http://rail.hankyu.co.jp/station/mikuni.html",
-        "wikidata": "Q866211",
-        "wikipedia": "ja:三国駅 (大阪府)"
-      }
-    },
-    {
-      "type": "node",
-      "id": 6694338062,
-      "lat": 34.7398390,
-      "lon": 135.4993786,
-      "tags": {
-        "amenity": "pub",
-        "name": "ABON",
-        "note": "美味",
-        "opening_hours": "Mo-Sa 11:30-15:00,16:30-22:00",
-        "opening_hours:covid19": "Mo-Sa 11:30-20:00",
-        "opening_hours:kitchen": "Mo-Sa 11:30-15:00,16:30-21:00",
-        "shop": "deli"
-      }
-    },
-    {
-      "type": "node",
-      "id": 7476140513,
-      "lat": 34.7381069,
-      "lon": 135.4994448,
-      "tags": {
-        "amenity": "bar",
-        "contact:twitter": "@keith0170",
-        "name": "キース",
-        "opening_hours": "17:00-24:00; We off",
-        "opening_hours:covid19": "17:00-19:00",
-        "phone": "+81 6 6393-0170",
-        "reservation:covid19": "only",
-        "takeaway:covid19": "only",
-        "website": "https://www.bar-keith.com/"
-      }
-    },
-    {
-      "type": "node",
-      "id": 7510812999,
-      "lat": 34.7412840,
-      "lon": 135.4981082,
-      "tags": {
-        "addr:block_number": "2",
-        "addr:city": "大阪市",
-        "addr:housenumber": "18",
-        "addr:neighbourhood": "4丁目",
-        "addr:postcode": "532-0002",
-        "addr:province": "大阪府",
-        "addr:quarter": "東三国",
-        "addr:suburb": "淀川区",
-        "amenity": "restaurant",
-        "check_date": "2024-01-18",
-        "contact:instagram": "takeru_higashimikuni",
-        "description": "店舗限定、人気メニューのテイクアウトを開始！\n■日替わり弁当\nハンバーグ、ステーキ、コンビなど、600円～\n■通常弁当\nデミグラスハンバーグ弁当 シングル(150g)：830円\nタケルステーキ弁当　R(150g)：1000円\nデミグラスハンバーグ(150g)+タケルステーキ(150g)：1550円\nタケルステーキ(100g)+グランドバイエルン+カキフライ他：1580円など。\n■カレー弁当　数量限定 500円\n目玉焼き、カキフライ替えバーグなど、\nトッピング 110円～\n■持ち帰り精肉も人気。",
-        "level": "0",
-        "name": "１ポンドのステーキ ハンバーグ タケル 東三国店",
-        "opening_hours": "11:30-15:00,17:30-22:00",
-        "opening_hours:covid19": "Mo-Su 11:30-15:00,17:00～20:00",
-        "phone": "06-4807-2929",
-        "takeaway": "yes",
-        "website": "https://steak-takeru.jp/"
-      }
-    },
-    {
-      "type": "node",
-      "id": 10044742347,
-      "lat": 34.7400123,
-      "lon": 135.5060998,
-      "tags": {
-        "addr:block_number": "17番",
-        "addr:city": "大阪市",
-        "addr:housenumber": "3号",
-        "addr:neighbourhood": "1丁目",
-        "addr:postcode": "533-0031",
-        "addr:province": "大阪府",
-        "addr:quarter": "西淡路",
-        "addr:suburb": "東淀川区",
-        "amenity": "cafe",
-        "check_date": "2025-06-14",
-        "contact:instagram": "kissaaoiclub",
-        "level": "0",
-        "name": "喫茶あおい",
-        "opening_hours": "Mo,We-Su 11:00-20:00",
-        "outdoor_seating": "no",
-        "website": "https://kissaaoiclub.com/",
-        "wheelchair": "yes"
-      }
-    },
-    {
-      "type": "node",
-      "id": 10159597169,
-      "lat": 34.7484742,
-      "lon": 135.4915614,
-      "tags": {
-        "addr:block_number": "15番",
-        "addr:city": "大阪市",
-        "addr:housenumber": "1号",
-        "addr:neighbourhood": "2丁目",
-        "addr:postcode": "532-0001",
-        "addr:province": "大阪府",
-        "addr:quarter": "十八条",
-        "addr:suburb": "淀川区",
-        "amenity": "social_facility",
-        "check_date": "2024-09-30",
-        "contact:instagram": "cocokara100",
-        "name": "ここから100",
-        "social_facility": "outreach",
-        "social_facility:for": "senior",
-        "website": "https://cocokara100.com/"
-      }
-    },
-    {
-      "type": "node",
-      "id": 10159629410,
-      "lat": 34.7443237,
-      "lon": 135.4949677,
-      "tags": {
-        "addr:block_number": "12番",
-        "addr:city": "大阪市",
-        "addr:housenumber": "15号",
-        "addr:neighbourhood": "6丁目",
-        "addr:postcode": "532-0002",
-        "addr:province": "大阪府",
-        "addr:quarter": "東三国",
-        "addr:suburb": "淀川区",
-        "amenity": "social_facility",
-        "check_date": "2025-10-27",
-        "contact:instagram": "cocokara100",
-        "contact:twitter": "cocokara100",
-        "name": "ここコミュ",
-        "operator": "特定非営利活動法人ここから100",
-        "social_facility": "outreach",
-        "website": "https://cocokara100.com/"
-      }
-    },
-    {
-      "type": "node",
-      "id": 10576279110,
-      "lat": 34.7399212,
-      "lon": 135.4998969,
-      "tags": {
-        "addr:block_number": "20番",
-        "addr:city": "大阪市",
-        "addr:housenumber": "11号",
-        "addr:neighbourhood": "1丁目",
-        "addr:postcode": "532-0002",
-        "addr:province": "大阪府",
-        "addr:quarter": "東三国",
-        "addr:suburb": "淀川区",
-        "check_date": "2025-10-28",
-        "contact:instagram": "and.care.7340",
-        "name": "&Care",
-        "opening_hours": "10:00-24:00",
-        "phone": "06-6398-7340",
-        "shop": "massage"
-      }
-    },
-    {
-      "type": "node",
-      "id": 10581060741,
-      "lat": 34.7378285,
-      "lon": 135.4992584,
-      "tags": {
-        "addr:block_number": "19番",
-        "addr:city": "大阪市",
-        "addr:housenumber": "23号",
-        "addr:neighbourhood": "1丁目",
-        "addr:postcode": "532-0003",
-        "addr:province": "大阪府",
-        "addr:quarter": "宮原",
-        "addr:suburb": "淀川区",
-        "check_date": "2025-06-10",
-        "contact:instagram": "mosaique_salon",
-        "name": "MOSAIQUE",
-        "shop": "hairdresser",
-        "website": "http://www.mosaique.co.jp"
-      }
-    },
-    {
-      "type": "node",
-      "id": 10885708495,
-      "lat": 34.7364101,
-      "lon": 135.4868405,
-      "tags": {
-        "addr:block_number": "18",
-        "addr:city": "大阪市",
-        "addr:housenumber": "5",
-        "addr:neighbourhood": "三国本町三丁目",
-        "addr:postcode": "532-0005",
-        "addr:province": "大阪府",
-        "addr:suburb": "淀川区",
-        "check_date": "2025-06-18",
-        "contact:instagram": "cakeshopsun",
-        "craft": "confectionery",
-        "cuisine": "cake",
-        "name": "CAKE SHOP SUN",
-        "shop": "pastry",
-        "website": "https://www.sun2005.jp/"
-      }
-    },
-    {
-      "type": "node",
-      "id": 10927885661,
-      "lat": 34.7363644,
-      "lon": 135.4939976,
-      "tags": {
-        "addr:block_number": "3番",
-        "addr:city": "大阪市",
-        "addr:housenumber": "35号1階",
-        "addr:neighbourhood": "2丁目",
-        "addr:postcode": "532-0004",
-        "addr:province": "大阪府",
-        "addr:quarter": "西宮原",
-        "addr:suburb": "淀川区",
-        "check_date": "2025-06-18",
-        "contact:instagram": "choisir_natural",
-        "level": "0",
-        "name": "choisir",
-        "name:ja": "ショワジール",
-        "shop": "wine",
-        "website": "https://choisir.jp/"
-      }
-    },
-    {
-      "type": "node",
-      "id": 11329292646,
-      "lat": 34.7416739,
-      "lon": 135.4909133,
-      "tags": {
-        "addr:block_number": "１３番",
-        "addr:city": "大阪市",
-        "addr:housenumber": "7",
-        "addr:neighbourhood": "１丁目",
-        "addr:postcode": "5320006",
-        "addr:province": "大阪府",
-        "addr:quarter": "西三国",
-        "addr:suburb": "淀川区",
-        "check_date": "2025-06-10",
-        "contact:instagram": "shinosaka_office",
-        "name": "新大阪眼鏡店",
-        "opening_hours": "10:00-18:30",
-        "payment:cash": "yes",
-        "payment:credit_cards": "yes",
-        "payment:paypay": "yes",
-        "phone": "06-6393-0836",
-        "shop": "optician",
-        "website": "https://www.matsukura-megane.co.jp/index.html#shinoosaka"
-      }
-    },
-    {
-      "type": "node",
-      "id": 11888032081,
-      "lat": 34.7398947,
-      "lon": 135.4936472,
-      "tags": {
-        "addr:block_number": "20",
-        "addr:city": "大阪市",
-        "addr:housenumber": "15",
-        "addr:neighbourhood": "4丁目",
-        "addr:postcode": "5320002",
-        "addr:province": "大阪府",
-        "addr:quarter": "東三国",
-        "addr:suburb": "淀川区",
-        "amenity": "cafe",
-        "check_date": "2024-08-17",
-        "contact:instagram": "horang_i2023",
-        "cuisine": "coffee_shop;sandwich;bakery",
-        "name": "cafe HORANG-I",
-        "name:ja": "カフェ ホランイ",
-        "opening_hours": "Mo,Su,PH off; Tu-Fr 11:00-19:00; Sa 11:00-18:00",
-        "outdoor_seating": "yes"
-      }
-    },
-    {
-      "type": "node",
-      "id": 11921174901,
-      "lat": 34.7388443,
-      "lon": 135.4863932,
-      "tags": {
-        "addr:block_number": "17番",
-        "addr:city": "大阪市",
-        "addr:housenumber": "3号",
-        "addr:neighbourhood": "3丁目",
-        "addr:postcode": "532-0006",
-        "addr:province": "大阪府",
-        "addr:quarter": "西三国",
-        "addr:suburb": "淀川区",
-        "amenity": "restaurant",
-        "check_date": "2025-06-07",
-        "contact:instagram": "1004_m1kun1_",
-        "contact:twitter": "1004_m1kun1_",
-        "cuisine": "korean",
-        "name": "1004〜てんし〜",
-        "opening_hours": "Mo,Su off; Tu-Sa 11:30-14:30,17:30-22:00",
-        "phone": "+81 678975733",
-        "wheelchair": "limited"
-      }
-    },
-    {
-      "type": "node",
-      "id": 12139657247,
-      "lat": 34.7442041,
-      "lon": 135.4991540,
-      "tags": {
-        "addr:block_number": "31番",
-        "addr:city": "大阪市",
-        "addr:housenumber": "12号",
-        "addr:neighbourhood": "2丁目",
-        "addr:postcode": "532-0002",
-        "addr:province": "大阪府",
-        "addr:quarter": "東三国",
-        "addr:suburb": "淀川区",
-        "check_date": "2025-06-10",
-        "contact:instagram": "kaminomise_micha",
-        "name": "髪の店mi-cha",
-        "shop": "hairdresser"
-      }
-    },
-    {
-      "type": "node",
-      "id": 12139662094,
-      "lat": 34.7425270,
-      "lon": 135.4989727,
-      "tags": {
-        "addr:block_number": "37番",
-        "addr:city": "大阪市",
-        "addr:housenumber": "14号202号室",
-        "addr:neighbourhood": "2丁目",
-        "addr:postcode": "532-0002",
-        "addr:province": "大阪府",
-        "addr:quarter": "東三国",
-        "addr:suburb": "淀川区",
-        "check_date": "2024-08-27",
-        "contact:instagram": "hs-ease.com",
-        "name": "ヘアーサロン EASE",
-        "shop": "hairdresser",
-        "website": "https://hs-ease.com/"
-      }
-    },
-    {
-      "type": "node",
-      "id": 12139667181,
-      "lat": 34.7330147,
-      "lon": 135.4935069,
-      "tags": {
-        "addr:block_number": "5番",
-        "addr:city": "大阪市",
-        "addr:housenumber": "33号 新大阪飯田ビル1階",
-        "addr:neighbourhood": "1丁目",
-        "addr:postcode": "532-0004",
-        "addr:province": "大阪府",
-        "addr:quarter": "西宮原",
-        "addr:suburb": "淀川区",
-        "contact:instagram": "miyuki.seino_official",
-        "contact:twitter": "seino_miyuki",
-        "name": "株式会社MUSUBU",
-        "office": "company"
-      }
-    },
-    {
-      "type": "node",
-      "id": 12141026024,
-      "lat": 34.7442985,
-      "lon": 135.4949887,
-      "tags": {
-        "addr:block_number": "12番",
-        "addr:city": "大阪市",
-        "addr:floor": "東三国6-12-15 2F",
-        "addr:housenumber": "15号",
-        "addr:neighbourhood": "6丁目",
-        "addr:postcode": "532-0002",
-        "addr:province": "大阪府",
-        "addr:quarter": "東三国",
-        "addr:suburb": "淀川区",
-        "amenity": "studio",
-        "check_date": "2025-08-05",
-        "contact:instagram": "fmhime772",
-        "contact:twitter": "fmhime772",
-        "name": "エフエムひめ",
-        "name:ja": "エフエムひめ",
-        "studio": "radio",
-        "website": "https://owaraipro.wixsite.com/honjopro/blank-1"
-      }
-    },
-    {
-      "type": "node",
-      "id": 12141088959,
-      "lat": 34.7388241,
-      "lon": 135.4907516,
-      "tags": {
-        "addr:province": "大阪府",
-        "addr:quarter": "西三国",
-        "addr:suburb": "淀川区",
-        "check_date": "2026-01-21",
-        "contact:instagram": "hocomaru_workshop",
-        "craft": "handicraft",
-        "level": "1",
-        "name": "まちかど工房 ほこまぁる",
-        "operator:type": "private",
-        "shop": "craft"
-      }
-    },
-    {
-      "type": "node",
-      "id": 12141108686,
-      "lat": 34.7416710,
-      "lon": 135.4920297,
-      "tags": {
-        "addr:block_number": "17",
-        "addr:city": "大阪市",
-        "addr:housenumber": "3",
-        "addr:neighbourhood": "１丁目",
-        "addr:postcode": "532-0006",
-        "addr:province": "大阪府",
-        "addr:quarter": "西三国",
-        "addr:suburb": "淀川区",
-        "contact:instagram": "saronn_mamii",
-        "name": "カイロプラクティック マミー",
-        "shop": "massage",
-        "website": "https://chiropractic-mammy.com/"
-      }
-    },
-    {
-      "type": "node",
-      "id": 12141113922,
-      "lat": 34.7388678,
-      "lon": 135.4841042,
-      "tags": {
-        "addr:block_number": "5",
-        "addr:city": "大阪市",
-        "addr:floor": "1F",
-        "addr:housename": "ヤマモト呉服店ビル",
-        "addr:housenumber": "3",
-        "addr:neighbourhood": "西三国三丁目",
-        "addr:postcode": "532-0006",
-        "addr:province": "大阪府",
-        "addr:suburb": "淀川区",
-        "amenity": "pub",
-        "check_date": "2025-06-18",
-        "contact:instagram": "hanayoshi0220",
-        "level": "0",
-        "name": "鉄板バルHANAYOSHI",
-        "name:ja": "鉄板バルHANAYOSHI"
-      }
-    },
-    {
-      "type": "node",
-      "id": 12141119152,
-      "lat": 34.7385959,
-      "lon": 135.4847381,
-      "tags": {
-        "addr:block_number": "3番",
-        "addr:city": "大阪市",
-        "addr:housenumber": "18号",
-        "addr:neighbourhood": "3丁目",
-        "addr:postcode": "532-0006",
-        "addr:province": "大阪府",
-        "addr:quarter": "西三国",
-        "addr:suburb": "淀川区",
-        "check_date": "2024-08-28",
-        "contact:instagram": "gekiyasu.komachi",
-        "fixme:type": "コスメ",
-        "name": "ゲキヤスコマチ",
-        "shop": "houseware"
-      }
-    },
-    {
-      "type": "node",
-      "id": 12167450570,
-      "lat": 34.7416782,
-      "lon": 135.4917510,
-      "tags": {
-        "addr:block_number": "14番",
-        "addr:city": "大阪市",
-        "addr:housenumber": "1号",
-        "addr:neighbourhood": "1丁目",
-        "addr:postcode": "532-0006",
-        "addr:province": "大阪府",
-        "addr:quarter": "西三国",
-        "addr:suburb": "淀川区",
-        "amenity": "cafe",
-        "check_date": "2025-06-10",
-        "contact:instagram": "mayumi.s.1954",
-        "name": "カフェ パーク",
-        "outdoor_seating": "no"
-      }
-    },
-    {
-      "type": "node",
-      "id": 12167450571,
-      "lat": 34.7374913,
-      "lon": 135.4827959,
-      "tags": {
-        "addr:block_number": "10番",
-        "addr:city": "大阪市",
-        "addr:housenumber": "17号",
-        "addr:neighbourhood": "3丁目",
-        "addr:postcode": "532-0033",
-        "addr:province": "大阪府",
-        "addr:quarter": "新高",
-        "addr:suburb": "淀川区",
-        "amenity": "pub",
-        "check_date": "2024-09-05",
-        "contact:instagram": "shukou0329",
-        "name": "スタンディングバー酒甲",
-        "website": "https://shu-kou.com/"
-      }
-    },
-    {
-      "type": "node",
-      "id": 12167450572,
-      "lat": 34.7399667,
-      "lon": 135.4954424,
-      "tags": {
-        "addr:block_number": "18番",
-        "addr:city": "大阪市",
-        "addr:housenumber": "9号",
-        "addr:neighbourhood": "4丁目",
-        "addr:postcode": "532-0002",
-        "addr:province": "大阪府",
-        "addr:quarter": "東三国",
-        "addr:suburb": "淀川区",
-        "amenity": "restaurant",
-        "check_date": "2024-09-10",
-        "contact:instagram": "courage_2308",
-        "cuisine": "italian",
-        "name": "COURAGE"
-      }
-    },
-    {
-      "type": "node",
-      "id": 12167574868,
-      "lat": 34.7354256,
-      "lon": 135.4844622,
-      "tags": {
-        "addr:city": "大阪市",
-        "addr:floor": "0",
-        "addr:housenumber": "淀川区三国本町2-16-21",
-        "addr:neighbourhood": "1丁目",
-        "addr:postcode": "532-0005",
-        "addr:province": "大阪府",
-        "addr:quarter": "西三国",
-        "addr:suburb": "淀川区",
-        "check_date": "2026-06-01",
-        "contact:instagram": "gute2015",
-        "craft": "confectionery",
-        "cuisine": "cake",
-        "drive_through": "no",
-        "name": "パティスリー グーテ",
-        "name:en": "patisserie gu-te",
-        "shop": "pastry"
-      }
-    },
-    {
-      "type": "node",
-      "id": 12167610786,
-      "lat": 34.7399222,
-      "lon": 135.5009793,
-      "tags": {
-        "addr:block_number": "20番",
-        "addr:city": "大阪市",
-        "addr:housenumber": "2号",
-        "addr:neighbourhood": "1丁目",
-        "addr:postcode": "532-0002",
-        "addr:province": "大阪府",
-        "addr:quarter": "東三国",
-        "addr:suburb": "淀川区",
-        "amenity": "fast_food",
-        "check_date": "2026-02-20",
-        "contact:instagram": "omusubi_on",
-        "cuisine": "おにぎり;regional",
-        "drive_through": "no",
-        "name": "恩結び-on-",
-        "takeaway": "yes"
-      }
-    },
-    {
-      "type": "node",
-      "id": 12168088286,
-      "lat": 34.7390375,
-      "lon": 135.4892178,
-      "tags": {
-        "addr:block_number": "7",
-        "addr:city": "大阪市",
-        "addr:housenumber": "9",
-        "addr:neighbourhood": "西三国二丁目",
-        "addr:postcode": "532-0006",
-        "addr:province": "大阪府",
-        "addr:suburb": "淀川区",
-        "contact:instagram": "saikoudou",
-        "craft": "confectionery",
-        "cuisine": "japanese",
-        "name": "彩甲堂",
-        "shop": "confectionery",
-        "website": "https://saikoudou-osaka.com/wagashi/"
-      }
-    },
-    {
-      "type": "node",
-      "id": 12168207781,
-      "lat": 34.7388377,
-      "lon": 135.4864491,
-      "tags": {
-        "addr:block_number": "17番",
-        "addr:city": "大阪市",
-        "addr:housenumber": "2号",
-        "addr:neighbourhood": "3丁目",
-        "addr:postcode": "532-0006",
-        "addr:province": "大阪府",
-        "addr:quarter": "西三国",
-        "addr:suburb": "淀川区",
-        "check_date": "2025-06-07",
-        "clothes": "children;文具;雑貨;駄菓子",
-        "contact:instagram": "reminisce_2021",
-        "name": "reminisce",
-        "name:ja": "レミニス",
-        "shop": "clothes"
-      }
-    },
-    {
-      "type": "node",
-      "id": 12168219654,
-      "lat": 34.7442205,
-      "lon": 135.4923919,
-      "tags": {
-        "addr:block_number": "21番",
-        "addr:city": "大阪市",
-        "addr:housenumber": "43号 103",
-        "addr:neighbourhood": "1丁目",
-        "addr:postcode": "532-0006",
-        "addr:province": "大阪府",
-        "addr:quarter": "西三国",
-        "addr:suburb": "淀川区",
-        "amenity": "social_facility",
-        "name": "合同会社コージープレイス",
-        "social_facility": "ambulatory_care",
-        "website": "https://www.cozyplacellc.jp"
-      }
-    },
-    {
-      "type": "node",
-      "id": 12193808822,
-      "lat": 34.7398453,
-      "lon": 135.4907109,
-      "tags": {
-        "addr:block_number": "3番",
-        "addr:city": "大阪市",
-        "addr:housenumber": "29号",
-        "addr:neighbourhood": "1丁目",
-        "addr:postcode": "532-0006",
-        "addr:province": "大阪府",
-        "addr:quarter": "西三国",
-        "addr:suburb": "淀川区",
-        "amenity": "community_centre",
-        "name": "西淀川・淀川健康友の会 ふれあい三国支部 ふれあいセンター",
-        "website": "https://fc-ai.com/"
-      }
-    },
-    {
-      "type": "node",
-      "id": 12204987985,
-      "lat": 34.7384303,
-      "lon": 135.4934829,
-      "tags": {
-        "addr:block_number": "2番地",
-        "addr:city": "大阪市",
-        "addr:housenumber": "1 1階",
-        "addr:neighbourhood": "3丁目",
-        "addr:postcode": "532-0004",
-        "addr:province": "大阪府",
-        "addr:quarter": "西宮原",
-        "addr:room": "102",
-        "addr:suburb": "淀川区",
-        "amenity": "language_school",
-        "name": "ECCジュニア西宮原3丁目教室",
-        "website": "https://eccjuniorbs.jp/ht272129/"
-      }
-    },
-    {
-      "type": "node",
-      "id": 12211634849,
-      "lat": 34.7423094,
-      "lon": 135.4980767,
-      "tags": {
-        "addr:block_number": "2番地",
-        "addr:city": "大阪市",
-        "addr:housenumber": "19号",
-        "addr:neighbourhood": "5丁目",
-        "addr:postcode": "532-0002",
-        "addr:province": "大阪府",
-        "addr:quarter": "東三国",
-        "addr:suburb": "淀川区",
-        "amenity": "cafe",
-        "check_date": "2025-06-10",
-        "contact:instagram": "KOUNOU-COFFEE",
-        "cuisine": "coffee_shop",
-        "name": "KOUNOU-COFFEE",
-        "outdoor_seating": "no",
-        "website": "https://kounou-coffee.com/"
-      }
-    },
-    {
-      "type": "node",
-      "id": 12893872342,
-      "lat": 34.7384412,
-      "lon": 135.4843592,
-      "tags": {
-        "addr:block_number": "3番",
-        "addr:city": "大阪市",
-        "addr:housenumber": "7号",
-        "addr:neighbourhood": "3丁目",
-        "addr:postcode": "532-0006",
-        "addr:province": "大阪府",
-        "addr:quarter": "西三国",
-        "addr:suburb": "淀川区",
-        "check_date": "2025-06-13",
-        "contact:instagram": "astilhotel_shinosaka",
-        "contact:twitter": "ah_shinosaka",
-        "name": "ASTIL HOTEL",
-        "name:ja": "アスティルホテル新大阪プレシャス",
-        "tourism": "hotel",
-        "website": "https://www.astilhotel.jp/shinosaka/"
-      }
-    },
-    {
-      "type": "node",
-      "id": 12893898051,
-      "lat": 34.7390865,
-      "lon": 135.4874639,
-      "tags": {
-        "amenity": "restaurant",
-        "check_date": "2025-06-07",
-        "cuisine": "korean",
-        "name": "韓国料理 CHEONGANG"
-      }
-    },
-    {
-      "type": "node",
-      "id": 12893905089,
-      "lat": 34.7383390,
-      "lon": 135.4857905,
-      "tags": {
-        "addr:block_number": "2番",
-        "addr:city": "大阪市",
-        "addr:housenumber": "15号2F",
-        "addr:neighbourhood": "3丁目",
-        "addr:postcode": "532-0006",
-        "addr:province": "大阪府",
-        "addr:quarter": "西三国",
-        "addr:suburb": "淀川区",
-        "amenity": "bar",
-        "check_date": "2025-10-28",
-        "contact:instagram": "kanna.min",
-        "contact:twitter": "kanna.rithu",
-        "name": "スナック　和灯",
-        "opening_hours": "Mo-Tu 20:00-24:00 Th-Fr 20:00-24:00 Sa-Su 11:00-24:00"
-      }
-    },
-    {
-      "type": "node",
-      "id": 12893931371,
-      "lat": 34.7381588,
-      "lon": 135.4858758,
-      "tags": {
-        "addr:block_number": "25番",
-        "addr:city": "大阪市",
-        "addr:housenumber": "18号",
-        "addr:neighbourhood": "3丁目",
-        "addr:postcode": "532-0005",
-        "addr:province": "大阪府",
-        "addr:quarter": "三国本町",
-        "addr:suburb": "淀川区",
-        "check_date": "2026-05-31",
-        "contact:instagram": "uia.mikuni",
-        "level": "0",
-        "name": "uia",
-        "name:ja": "uia",
-        "shop": "clothes",
-        "website": "https://www.uiamikuni.net/",
-        "wheelchair": "no"
-      }
-    },
-    {
-      "type": "node",
-      "id": 12894107250,
-      "lat": 34.7418295,
-      "lon": 135.4971622,
-      "tags": {
-        "addr:block_number": "6番地",
-        "addr:city": "大阪市",
-        "addr:housenumber": "10号",
-        "addr:neighbourhood": "5丁目",
-        "addr:postcode": "532-0002",
-        "addr:province": "大阪府",
-        "addr:quarter": "東三国",
-        "addr:suburb": "淀川区",
-        "amenity": "restaurant",
-        "check_date": "2025-06-13",
-        "contact:instagram": "carnelian2955",
-        "name": "洋食カーネリアン",
-        "name:ja": "洋食カーネリアン"
-      }
-    },
-    {
-      "type": "node",
-      "id": 12894108608,
-      "lat": 34.7418472,
-      "lon": 135.4969958,
-      "tags": {
-        "addr:block_number": "6番地",
-        "addr:city": "大阪市",
-        "addr:housenumber": "2号 201",
-        "addr:neighbourhood": "5丁目",
-        "addr:postcode": "532-0002",
-        "addr:province": "大阪府",
-        "addr:quarter": "東三国",
-        "addr:suburb": "淀川区",
-        "check_date": "2025-06-13",
-        "contact:instagram": "solve_beauty_salon",
-        "level": "1",
-        "name": "SOLVE beauty salon",
-        "shop": "beauty"
-      }
-    },
-    {
-      "type": "node",
-      "id": 12894386267,
-      "lat": 34.7391234,
-      "lon": 135.4903237,
-      "tags": {
-        "addr:block_number": "3番",
-        "addr:city": "大阪市",
-        "addr:housenumber": "14号",
-        "addr:neighbourhood": "1丁目",
-        "addr:postcode": "532-0006",
-        "addr:province": "大阪府",
-        "addr:quarter": "西三国",
-        "addr:suburb": "淀川区",
-        "amenity": "restaurant",
-        "check_date": "2025-06-07",
-        "contact:instagram": "kokorahen_",
-        "cuisine": "ramen",
-        "name": "ここらへん"
-      }
-    },
-    {
-      "type": "node",
-      "id": 12901109844,
-      "lat": 34.7385281,
-      "lon": 135.4936213,
-      "tags": {
-        "addr:block_number": "２番地",
-        "addr:city": "大阪市",
-        "addr:housenumber": "１号 ７０１",
-        "addr:neighbourhood": "３丁目",
-        "addr:postcode": "532-0004",
-        "addr:province": "大阪府",
-        "addr:quarter": "西宮原",
-        "addr:suburb": "淀川区",
-        "beauty": "spa",
-        "check_date": "2025-06-10",
-        "contact:instagram": "nie.mattariii",
-        "name": "にぇんチ",
-        "shop": "beauty"
-      }
-    },
-    {
-      "type": "node",
-      "id": 12905884168,
-      "lat": 34.7355087,
-      "lon": 135.4814170,
-      "tags": {
-        "addr:block_number": "10番",
-        "addr:city": "大阪市",
-        "addr:housenumber": "25号",
-        "addr:neighbourhood": "4丁目",
-        "addr:postcode": "532-0033",
-        "addr:province": "大阪府",
-        "addr:quarter": "新高",
-        "addr:suburb": "淀川区",
-        "contact:instagram": "minkakokusanzai",
-        "craft": "carpenter",
-        "name": "建築士事務所 民家",
-        "website": "https://min-ka.jp/"
-      }
-    },
-    {
-      "type": "node",
-      "id": 12911903330,
-      "lat": 34.7411230,
-      "lon": 135.4973426,
-      "tags": {
-        "addr:block_number": "4番地",
-        "addr:city": "大阪市",
-        "addr:housenumber": "17号 2階、3階",
-        "addr:neighbourhood": "4丁目",
-        "addr:postcode": "532-0002",
-        "addr:province": "大阪府",
-        "addr:quarter": "東三国",
-        "addr:suburb": "淀川区",
-        "beauty": "spa",
-        "check_date": "2025-06-13",
-        "contact:instagram": "luce_yomogimushi",
-        "contact:website": "https://beauty.hotpepper.jp/kr/slnH000651574/?cstt=2&wak=KPSC200404_s_link_salontop",
-        "fixme:type": "サロン",
-        "name": "health＆beauty Luce",
-        "name:ja": "ルーチェ",
-        "shop": "beauty"
-      }
-    },
-    {
-      "type": "node",
-      "id": 13190285736,
-      "lat": 34.7399072,
-      "lon": 135.5017932,
-      "tags": {
-        "amenity": "cafe",
-        "check_date": "2025-10-03",
-        "contact:instagram": "mn_coffee_okinawa_osaka",
-        "cuisine": "coffee_shop",
-        "name": "MN COFFEE OKINAWA OSAKA",
-        "name:ja": "エムエヌ コーヒー オキナワ オオサカ"
-      }
-    },
-    {
-      "type": "node",
-      "id": 13897945780,
-      "lat": 34.7380998,
-      "lon": 135.4858995,
-      "tags": {
-        "addr:floor": "0",
-        "amenity": "pub",
-        "check_date": "2026-05-31",
-        "contact:facebook": "https://www.facebook.com/rokugenya001/",
-        "contact:instagram": "rokugenya",
-        "contact:twitter": "rokugenya",
-        "name": "六弦家"
-      }
-    },
-    {
-      "type": "node",
-      "id": 13897969734,
-      "lat": 34.7392132,
-      "lon": 135.4835885,
-      "tags": {
-        "addr:floor": "0",
-        "amenity": "restaurant",
-        "check_date": "2026-05-31",
-        "contact:instagram": "juyachicken_osaka",
-        "cuisine": "korean",
-        "name": "昼耕夜鶏"
-      }
-    },
-    {
-      "type": "node",
-      "id": 13897985836,
-      "lat": 34.7408290,
-      "lon": 135.4866841,
-      "tags": {
-        "check_date": "2026-05-31",
-        "contact:instagram": "ayakimono_style_provider",
-        "name": "絹乃Maison『綾.』",
-        "shop": "beauty",
-        "website": "https://kinunomaison-aya.com/"
-      }
-    },
-    {
-      "type": "node",
-      "id": 13898333353,
-      "lat": 34.7388590,
-      "lon": 135.4866862,
-      "tags": {
-        "check_date": "2026-05-31",
-        "contact:instagram": "torihata.to_futen.mikuni",
-        "name": "島畑豆腐店",
-        "shop": "deli"
-      }
-    },
-    {
-      "type": "node",
-      "id": 13898559701,
-      "lat": 34.7394156,
-      "lon": 135.4836014,
-      "tags": {
-        "amenity": "restaurant",
-        "contact:instagram": "kouraku_2022",
-        "cuisine": "korean",
-        "name": "韓食酒房 幸楽"
-      }
-    },
-    {
-      "type": "node",
-      "id": 13898950779,
-      "lat": 34.7397859,
-      "lon": 135.4936694,
-      "tags": {
-        "check_date": "2026-06-01",
-        "contact:instagram": "__.ka__ka",
-        "level": "0",
-        "name": "珈菓 kaka",
-        "name:ja-Hira": "かか",
-        "opening_hours": "Mo-We 10:00-18:00; Fr 10:00-18:00; PH 10:00-18:00; Sa-Su 08:00-17:00",
-        "payment:cash": "only",
-        "shop": "pastry"
-      }
-    },
-    {
-      "type": "node",
-      "id": 13901104181,
-      "lat": 34.7408226,
-      "lon": 135.4934837,
-      "tags": {
-        "amenity": "restaurant",
-        "contact:instagram": "heaven.higashimikuni",
-        "cuisine": "curry",
-        "level": "0",
-        "name": "HeavEN 24/7",
-        "takeaway": "Mo-We 10:00-22:00; Th 10:00-17:00; Fr 10:00-22:00; Sa-Su 10:00-17:00"
-      }
-    },
-    {
-      "type": "node",
-      "id": 13901259342,
-      "lat": 34.7403408,
-      "lon": 135.4971692,
-      "tags": {
-        "addr:floor": "3",
-        "contact:instagram": "hodokithai",
-        "level": "2",
-        "name": "タイ古式マッサージ-ほどき-",
-        "shop": "massage",
-        "website": "https://hodoki.edisone.jp/"
-      }
-    },
-    {
-      "type": "node",
-      "id": 13901259348,
-      "lat": 34.7418660,
-      "lon": 135.4976758,
-      "tags": {
-        "addr:room": "301",
-        "amenity": "social_facility",
-        "contact:instagram": "yourlife_reload",
-        "contact:phone": "+81 6 6398 7771",
-        "name": "YOURLIFE Reload",
-        "name:ja": "ユアライフ・リロード",
-        "opening_hours": "10:00-17:00",
-        "social_facility": "workshop",
-        "website": "https://reload.yourlife.group/"
-      }
-    },
-    {
-      "type": "node",
-      "id": 13901300226,
-      "lat": 34.7411612,
-      "lon": 135.4996392,
-      "tags": {
-        "name": "東三国マッサージ",
-        "shop": "massage",
-        "website": "http://higasimikunima.sakura.ne.jp/wp/"
-      }
-    },
-    {
-      "type": "node",
-      "id": 13904009143,
-      "lat": 34.7359489,
-      "lon": 135.4841563,
-      "tags": {
-        "addr:floor": "0",
-        "check_date": "2026-06-02",
-        "contact:instagram": "kayra_bakery_noda",
-        "name": "ケーラベーカリー三国",
-        "name:ja": "ケーラベーカリーみくに",
-        "shop": "bakery"
-      }
-    },
-    {
-      "type": "node",
-      "id": 13904009144,
-      "lat": 34.7400345,
-      "lon": 135.4923918,
-      "tags": {
-        "addr:floor": "0",
-        "amenity": "community_centre",
-        "check_date": "2026-06-02",
-        "community_centre": "family_centre",
-        "contact:instagram": "hugroom.osaka",
-        "name": "hugroom",
-        "name:ja": "はぐるーむ"
-      }
-    },
-    {
-      "type": "node",
-      "id": 13904064372,
-      "lat": 34.7437769,
-      "lon": 135.4923801,
-      "tags": {
-        "addr:floor": "2",
-        "amenity": "dancing_school",
-        "check_date": "2026-06-02",
-        "contact:instagram": "dance_school.ac",
-        "education": "dancing_school",
-        "level": "1",
-        "name": "Dance school AC",
-        "name:ja": "ダンススクールエーシー",
-        "website": "https://dance-school-ac.jimdosite.com/"
-      }
-    },
-    {
-      "type": "node",
-      "id": 13907760224,
-      "lat": 34.7338648,
-      "lon": 135.4941672,
-      "tags": {
-        "addr:floor": "4",
-        "addr:room": "412",
-        "contact:instagram": "doors.eye",
-        "level": "3",
-        "name": "salon.Doors",
-        "shop": "hairdresser"
-      }
-    },
-    {
-      "type": "node",
-      "id": 13907760334,
-      "lat": 34.7334946,
-      "lon": 135.4934125,
-      "tags": {
-        "addr:floor": "3",
-        "contact:instagram": "tryout.inc",
-        "level": "2",
-        "name": "TRYOUT",
-        "office": "estate_agent",
-        "website": "https://tryout-inc.com/"
-      }
-    },
-    {
-      "type": "node",
-      "id": 13935266683,
-      "lat": 34.7388389,
-      "lon": 135.4864703,
-      "tags": {
-        "addr:block_number": "17番",
-        "addr:city": "大阪市",
-        "addr:housenumber": "2号",
-        "addr:neighbourhood": "3丁目",
-        "addr:postcode": "532-0006",
-        "addr:province": "大阪府",
-        "addr:quarter": "西三国",
-        "addr:suburb": "淀川区",
-        "amenity": "cafe",
-        "contact:instagram": "reminisce_2021",
-        "cuisine": "テイクアウトカフェ",
-        "name": "∞end",
-        "name:ja": "エイトエンド"
-      }
-    },
-    {
-      "type": "node",
-      "id": 13983352687,
-      "lat": 34.7418479,
-      "lon": 135.49704,
-      "tags": {
-        "beauty": "nails",
-        "contact:instagram": "solve_nail__teru",
-        "level": "1",
-        "name": "SOLVE nail",
-        "shop": "beauty"
-      }
-    },
-    {
-      "type": "way",
-      "id": 271389852,
-      "nodes": [
-        2763436090,
-        2763436091,
-        13545981444,
-        13545981445,
-        2763436093,
-        2763436094,
-        2763436095,
-        2763436090
-      ],
-      "tags": {
-        "addr:block_number": "32番",
-        "addr:city": "大阪市",
-        "addr:housenumber": "4号",
-        "addr:neighbourhood": "1丁目",
-        "addr:postcode": "532-0002",
-        "addr:province": "大阪府",
-        "addr:quarter": "東三国",
-        "addr:suburb": "淀川区",
-        "amenity": "place_of_worship",
-        "contact:instagram": "higashimikuni_jyokouji",
-        "denomination": "jodo_shinshu",
-        "name": "常光寺",
-        "religion": "buddhist"
-      }
-    },
-    {
-      "type": "way",
-      "id": 272227742,
-      "nodes": [
-        2771832435,
-        2771832437,
-        13907532457,
-        13907532456,
-        13907532455,
-        13907532458,
-        2771832438,
-        2771832439,
-        2771832469,
-        13098174110,
-        2771832451,
-        2771832440,
-        2771832443,
-        2771832444,
-        11472376715,
-        2771832435
-      ],
-      "tags": {
-        "addr:block_number": "35番",
-        "addr:city": "大阪市",
-        "addr:housenumber": "8号",
-        "addr:neighbourhood": "3丁目",
-        "addr:postcode": "532-0005",
-        "addr:province": "大阪府",
-        "addr:quarter": "三国本町",
-        "addr:suburb": "淀川区",
-        "amenity": "college",
-        "check_date": "2026-05-31",
-        "contact:instagram": "osakabunka",
-        "name": "ヴォートレイルファッションアカデミー",
-        "source": "Bing,2011-4",
-        "website": "https://voutrail.jp/"
-      }
-    },
-    {
-      "type": "node",
-      "id": 2763436090,
-      "lat": 34.7409889,
-      "lon": 135.4988631
-    },
-    {
-      "type": "node",
-      "id": 2763436091,
-      "lat": 34.7409914,
-      "lon": 135.4991730
-    },
-    {
-      "type": "node",
-      "id": 2763436093,
-      "lat": 34.7406938,
-      "lon": 135.4992272
-    },
-    {
-      "type": "node",
-      "id": 2763436094,
-      "lat": 34.7406834,
-      "lon": 135.4989492
-    },
-    {
-      "type": "node",
-      "id": 2763436095,
-      "lat": 34.7407353,
-      "lon": 135.4988693
-    },
-    {
-      "type": "node",
-      "id": 2771832435,
-      "lat": 34.7360166,
-      "lon": 135.4839360
-    },
-    {
-      "type": "node",
-      "id": 2771832437,
-      "lat": 34.7360809,
-      "lon": 135.4844663
-    },
-    {
-      "type": "node",
-      "id": 2771832438,
-      "lat": 34.7364940,
-      "lon": 135.4844370
-    },
-    {
-      "type": "node",
-      "id": 2771832439,
-      "lat": 34.7364812,
-      "lon": 135.4841563
-    },
-    {
-      "type": "node",
-      "id": 2771832440,
-      "lat": 34.7362232,
-      "lon": 135.4840177
-    },
-    {
-      "type": "node",
-      "id": 2771832443,
-      "lat": 34.7360540,
-      "lon": 135.4840276
-    },
-    {
-      "type": "node",
-      "id": 2771832444,
-      "lat": 34.7360469,
-      "lon": 135.4839330
-    },
-    {
-      "type": "node",
-      "id": 2771832451,
-      "lat": 34.7362241,
-      "lon": 135.4840661
-    },
-    {
-      "type": "node",
-      "id": 2771832469,
-      "lat": 34.7364146,
-      "lon": 135.4841608
-    },
-    {
-      "type": "node",
-      "id": 11472376715,
-      "lat": 34.7360315,
-      "lon": 135.4839345
-    },
-    {
-      "type": "node",
-      "id": 13098174110,
-      "lat": 34.7364102,
-      "lon": 135.4840512
-    },
-    {
-      "type": "node",
-      "id": 13545981444,
-      "lat": 34.7409088,
-      "lon": 135.4991754
-    },
-    {
-      "type": "node",
-      "id": 13545981445,
-      "lat": 34.7409091,
-      "lon": 135.4991880
-    },
-    {
-      "type": "node",
-      "id": 13907532455,
-      "lat": 34.7363154,
-      "lon": 135.4846953
-    },
-    {
-      "type": "node",
-      "id": 13907532456,
-      "lat": 34.7361545,
-      "lon": 135.4847231
-    },
-    {
-      "type": "node",
-      "id": 13907532457,
-      "lat": 34.7361110,
-      "lon": 135.4847047
-    },
-    {
-      "type": "node",
-      "id": 13907532458,
-      "lat": 34.7362882,
-      "lon": 135.4844492
-    }
+
+{
+  "type": "node",
+  "id": 346120930,
+  "lat": 34.7375647,
+  "lon": 135.4829803,
+  "tags": {
+    "KSJ2:LIN": "宝塚線",
+    "KSJ2:STN": "三国",
+    "name": "三国",
+    "name:en": "Mikuni",
+    "name:ja": "三国",
+    "name:ja_rm": "Mikuni",
+    "name:ko": "미쿠니",
+    "note": "National-Land Numerical Information (Railway) 2007, MLIT Japan",
+    "note:ja": "国土数値情報（鉄道データ）平成19年　国土交通省",
+    "public_transport": "station",
+    "railway": "station",
+    "source_ref": "http://nlftp.mlit.go.jp/ksj/jpgis/datalist/KsjTmplt-N02-v1_1.html",
+    "url": "http://rail.hankyu.co.jp/station/mikuni.html",
+    "wikidata": "Q866211",
+    "wikipedia": "ja:三国駅 (大阪府)"
+  }
+},
+{
+  "type": "node",
+  "id": 6694338062,
+  "lat": 34.7398390,
+  "lon": 135.4993786,
+  "tags": {
+    "amenity": "pub",
+    "contact:instagram": "abondeli",
+    "contact:twitter": "astil_shinosaka",
+    "name": "ABON",
+    "note": "美味",
+    "opening_hours": "Mo-Sa 11:30-15:00,16:30-22:00",
+    "opening_hours:covid19": "Mo-Sa 11:30-20:00",
+    "opening_hours:kitchen": "Mo-Sa 11:30-15:00,16:30-21:00",
+    "shop": "deli"
+  }
+},
+{
+  "type": "node",
+  "id": 7476140513,
+  "lat": 34.7381069,
+  "lon": 135.4994448,
+  "tags": {
+    "amenity": "bar",
+    "contact:twitter": "@keith0170",
+    "name": "キース",
+    "opening_hours": "17:00-24:00; We off",
+    "opening_hours:covid19": "17:00-19:00",
+    "phone": "+81 6 6393-0170",
+    "reservation:covid19": "only",
+    "takeaway:covid19": "only",
+    "website": "https://www.bar-keith.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 7510812999,
+  "lat": 34.7412840,
+  "lon": 135.4981082,
+  "tags": {
+    "addr:block_number": "2",
+    "addr:city": "大阪市",
+    "addr:housenumber": "18",
+    "addr:neighbourhood": "4丁目",
+    "addr:postcode": "532-0002",
+    "addr:province": "大阪府",
+    "addr:quarter": "東三国",
+    "addr:suburb": "淀川区",
+    "amenity": "restaurant",
+    "check_date": "2024-01-18",
+    "contact:instagram": "takeru_higashimikuni",
+    "description": "店舗限定、人気メニューのテイクアウトを開始！\n■日替わり弁当\nハンバーグ、ステーキ、コンビなど、600円～\n■通常弁当\nデミグラスハンバーグ弁当 シングル(150g)：830円\nタケルステーキ弁当　R(150g)：1000円\nデミグラスハンバーグ(150g)+タケルステーキ(150g)：1550円\nタケルステーキ(100g)+グランドバイエルン+カキフライ他：1580円など。\n■カレー弁当　数量限定 500円\n目玉焼き、カキフライ替えバーグなど、\nトッピング 110円～\n■持ち帰り精肉も人気。",
+    "level": "0",
+    "name": "１ポンドのステーキ ハンバーグ タケル 東三国店",
+    "opening_hours": "11:30-15:00,17:30-22:00",
+    "opening_hours:covid19": "Mo-Su 11:30-15:00,17:00～20:00",
+    "phone": "06-4807-2929",
+    "takeaway": "yes",
+    "website": "https://steak-takeru.jp/"
+  }
+},
+{
+  "type": "node",
+  "id": 10044742347,
+  "lat": 34.7400123,
+  "lon": 135.5060998,
+  "tags": {
+    "addr:block_number": "17番",
+    "addr:city": "大阪市",
+    "addr:housenumber": "3号",
+    "addr:neighbourhood": "1丁目",
+    "addr:postcode": "533-0031",
+    "addr:province": "大阪府",
+    "addr:quarter": "西淡路",
+    "addr:suburb": "東淀川区",
+    "amenity": "cafe",
+    "check_date": "2025-06-14",
+    "contact:instagram": "kissaaoiclub",
+    "level": "0",
+    "name": "喫茶あおい",
+    "opening_hours": "Mo,We-Su 11:00-20:00",
+    "outdoor_seating": "no",
+    "website": "https://kissaaoiclub.com/",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 10159597169,
+  "lat": 34.7484742,
+  "lon": 135.4915614,
+  "tags": {
+    "addr:block_number": "15番",
+    "addr:city": "大阪市",
+    "addr:housenumber": "1号",
+    "addr:neighbourhood": "2丁目",
+    "addr:postcode": "532-0001",
+    "addr:province": "大阪府",
+    "addr:quarter": "十八条",
+    "addr:suburb": "淀川区",
+    "amenity": "social_facility",
+    "check_date": "2024-09-30",
+    "contact:instagram": "cocokara100",
+    "contact:twitter": "cocokara100",
+    "name": "ここから100",
+    "social_facility": "outreach",
+    "social_facility:for": "senior",
+    "website": "https://cocokara100.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 10159629410,
+  "lat": 34.7443237,
+  "lon": 135.4949677,
+  "tags": {
+    "addr:block_number": "12番",
+    "addr:city": "大阪市",
+    "addr:housenumber": "15号",
+    "addr:neighbourhood": "6丁目",
+    "addr:postcode": "532-0002",
+    "addr:province": "大阪府",
+    "addr:quarter": "東三国",
+    "addr:suburb": "淀川区",
+    "amenity": "social_facility",
+    "check_date": "2025-10-27",
+    "contact:instagram": "cocokara100",
+    "contact:twitter": "cocokara100",
+    "name": "ここコミュ",
+    "operator": "特定非営利活動法人ここから100",
+    "social_facility": "outreach",
+    "website": "https://cocokara100.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 10576279110,
+  "lat": 34.7399212,
+  "lon": 135.4998969,
+  "tags": {
+    "addr:block_number": "20番",
+    "addr:city": "大阪市",
+    "addr:housenumber": "11号",
+    "addr:neighbourhood": "1丁目",
+    "addr:postcode": "532-0002",
+    "addr:province": "大阪府",
+    "addr:quarter": "東三国",
+    "addr:suburb": "淀川区",
+    "check_date": "2025-10-28",
+    "contact:instagram": "and.care.7340",
+    "name": "&Care",
+    "opening_hours": "10:00-24:00",
+    "phone": "06-6398-7340",
+    "shop": "massage"
+  }
+},
+{
+  "type": "node",
+  "id": 10581060741,
+  "lat": 34.7378285,
+  "lon": 135.4992584,
+  "tags": {
+    "addr:block_number": "19番",
+    "addr:city": "大阪市",
+    "addr:housenumber": "23号",
+    "addr:neighbourhood": "1丁目",
+    "addr:postcode": "532-0003",
+    "addr:province": "大阪府",
+    "addr:quarter": "宮原",
+    "addr:suburb": "淀川区",
+    "check_date": "2025-06-10",
+    "contact:instagram": "mosaique_salon",
+    "name": "MOSAIQUE",
+    "shop": "hairdresser",
+    "website": "http://www.mosaique.co.jp"
+  }
+},
+{
+  "type": "node",
+  "id": 10885708495,
+  "lat": 34.7364101,
+  "lon": 135.4868405,
+  "tags": {
+    "addr:block_number": "18",
+    "addr:city": "大阪市",
+    "addr:housenumber": "5",
+    "addr:neighbourhood": "三国本町三丁目",
+    "addr:postcode": "532-0005",
+    "addr:province": "大阪府",
+    "addr:suburb": "淀川区",
+    "check_date": "2025-06-18",
+    "contact:instagram": "cakeshopsun",
+    "craft": "confectionery",
+    "cuisine": "cake",
+    "name": "CAKE SHOP SUN",
+    "shop": "pastry",
+    "website": "https://www.sun2005.jp/"
+  }
+},
+{
+  "type": "node",
+  "id": 10927885661,
+  "lat": 34.7363644,
+  "lon": 135.4939976,
+  "tags": {
+    "addr:block_number": "3番",
+    "addr:city": "大阪市",
+    "addr:housenumber": "35号1階",
+    "addr:neighbourhood": "2丁目",
+    "addr:postcode": "532-0004",
+    "addr:province": "大阪府",
+    "addr:quarter": "西宮原",
+    "addr:suburb": "淀川区",
+    "check_date": "2025-06-18",
+    "contact:instagram": "choisir_natural",
+    "level": "0",
+    "name": "choisir",
+    "name:ja": "ショワジール",
+    "shop": "wine",
+    "website": "https://choisir.jp/"
+  }
+},
+{
+  "type": "node",
+  "id": 11329292646,
+  "lat": 34.7416739,
+  "lon": 135.4909133,
+  "tags": {
+    "addr:block_number": "１３番",
+    "addr:city": "大阪市",
+    "addr:housenumber": "7",
+    "addr:neighbourhood": "１丁目",
+    "addr:postcode": "5320006",
+    "addr:province": "大阪府",
+    "addr:quarter": "西三国",
+    "addr:suburb": "淀川区",
+    "check_date": "2025-06-10",
+    "contact:instagram": "shinosaka_office",
+    "name": "新大阪眼鏡店",
+    "opening_hours": "10:00-18:30",
+    "payment:cash": "yes",
+    "payment:credit_cards": "yes",
+    "payment:paypay": "yes",
+    "phone": "06-6393-0836",
+    "shop": "optician",
+    "website": "https://www.matsukura-megane.co.jp/index.html#shinoosaka"
+  }
+},
+{
+  "type": "node",
+  "id": 11888032081,
+  "lat": 34.7398947,
+  "lon": 135.4936472,
+  "tags": {
+    "addr:block_number": "20",
+    "addr:city": "大阪市",
+    "addr:housenumber": "15",
+    "addr:neighbourhood": "4丁目",
+    "addr:postcode": "5320002",
+    "addr:province": "大阪府",
+    "addr:quarter": "東三国",
+    "addr:suburb": "淀川区",
+    "amenity": "cafe",
+    "check_date": "2024-08-17",
+    "contact:instagram": "horang_i2023",
+    "cuisine": "coffee_shop;sandwich;bakery",
+    "name": "cafe HORANG-I",
+    "name:ja": "カフェ ホランイ",
+    "opening_hours": "Mo,Su,PH off; Tu-Fr 11:00-19:00; Sa 11:00-18:00",
+    "outdoor_seating": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 11921174901,
+  "lat": 34.7388443,
+  "lon": 135.4863932,
+  "tags": {
+    "addr:block_number": "17番",
+    "addr:city": "大阪市",
+    "addr:housenumber": "3号",
+    "addr:neighbourhood": "3丁目",
+    "addr:postcode": "532-0006",
+    "addr:province": "大阪府",
+    "addr:quarter": "西三国",
+    "addr:suburb": "淀川区",
+    "amenity": "restaurant",
+    "check_date": "2025-06-07",
+    "contact:instagram": "1004_m1kun1_",
+    "contact:twitter": "1004_m1kun1_",
+    "cuisine": "korean",
+    "name": "1004〜てんし〜",
+    "opening_hours": "Mo,Su off; Tu-Sa 11:30-14:30,17:30-22:00",
+    "phone": "+81 678975733",
+    "wheelchair": "limited"
+  }
+},
+{
+  "type": "node",
+  "id": 12139657247,
+  "lat": 34.7442041,
+  "lon": 135.4991540,
+  "tags": {
+    "addr:block_number": "31番",
+    "addr:city": "大阪市",
+    "addr:housenumber": "12号",
+    "addr:neighbourhood": "2丁目",
+    "addr:postcode": "532-0002",
+    "addr:province": "大阪府",
+    "addr:quarter": "東三国",
+    "addr:suburb": "淀川区",
+    "check_date": "2025-06-10",
+    "contact:instagram": "kaminomise_micha",
+    "name": "髪の店mi-cha",
+    "shop": "hairdresser",
+    "website": "http://mi-cha.net"
+  }
+},
+{
+  "type": "node",
+  "id": 12139662094,
+  "lat": 34.7425270,
+  "lon": 135.4989727,
+  "tags": {
+    "addr:block_number": "37番",
+    "addr:city": "大阪市",
+    "addr:housenumber": "14号202号室",
+    "addr:neighbourhood": "2丁目",
+    "addr:postcode": "532-0002",
+    "addr:province": "大阪府",
+    "addr:quarter": "東三国",
+    "addr:suburb": "淀川区",
+    "check_date": "2024-08-27",
+    "contact:instagram": "hs-ease.com",
+    "name": "ヘアーサロン EASE",
+    "shop": "hairdresser",
+    "website": "https://hs-ease.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 12139667181,
+  "lat": 34.7330147,
+  "lon": 135.4935069,
+  "tags": {
+    "addr:block_number": "5番",
+    "addr:city": "大阪市",
+    "addr:housenumber": "33号 新大阪飯田ビル1階",
+    "addr:neighbourhood": "1丁目",
+    "addr:postcode": "532-0004",
+    "addr:province": "大阪府",
+    "addr:quarter": "西宮原",
+    "addr:suburb": "淀川区",
+    "contact:instagram": "miyuki.seino_official",
+    "contact:twitter": "seino_miyuki",
+    "name": "株式会社MUSUBU",
+    "office": "company"
+  }
+},
+{
+  "type": "node",
+  "id": 12141026024,
+  "lat": 34.7442985,
+  "lon": 135.4949887,
+  "tags": {
+    "addr:block_number": "12番",
+    "addr:city": "大阪市",
+    "addr:floor": "東三国6-12-15 2F",
+    "addr:housenumber": "15号",
+    "addr:neighbourhood": "6丁目",
+    "addr:postcode": "532-0002",
+    "addr:province": "大阪府",
+    "addr:quarter": "東三国",
+    "addr:suburb": "淀川区",
+    "amenity": "studio",
+    "check_date": "2025-08-05",
+    "contact:instagram": "fmhime772",
+    "contact:twitter": "fmhime772",
+    "name": "エフエムひめ",
+    "name:ja": "エフエムひめ",
+    "studio": "radio",
+    "website": "https://owaraipro.wixsite.com/honjopro/blank-1"
+  }
+},
+{
+  "type": "node",
+  "id": 12141088959,
+  "lat": 34.7388241,
+  "lon": 135.4907516,
+  "tags": {
+    "addr:province": "大阪府",
+    "addr:quarter": "西三国",
+    "addr:suburb": "淀川区",
+    "check_date": "2026-01-21",
+    "contact:instagram": "hocomaru_workshop",
+    "craft": "handicraft",
+    "level": "1",
+    "name": "まちかど工房 ほこまぁる",
+    "operator:type": "private",
+    "shop": "craft",
+    "website": "https://hocomaru.site/"
+  }
+},
+{
+  "type": "node",
+  "id": 12141108686,
+  "lat": 34.7416710,
+  "lon": 135.4920297,
+  "tags": {
+    "addr:block_number": "17",
+    "addr:city": "大阪市",
+    "addr:housenumber": "3",
+    "addr:neighbourhood": "１丁目",
+    "addr:postcode": "532-0006",
+    "addr:province": "大阪府",
+    "addr:quarter": "西三国",
+    "addr:suburb": "淀川区",
+    "contact:instagram": "kp_mayumi",
+    "healthcare": "alternative",
+    "healthcare:speciality": "chiropractic",
+    "name": "カイロプラクティック マミー",
+    "website": "https://chiropractic-mammy.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 12141113922,
+  "lat": 34.7388678,
+  "lon": 135.4841042,
+  "tags": {
+    "addr:block_number": "5",
+    "addr:city": "大阪市",
+    "addr:floor": "1F",
+    "addr:housename": "ヤマモト呉服店ビル",
+    "addr:housenumber": "3",
+    "addr:neighbourhood": "西三国三丁目",
+    "addr:postcode": "532-0006",
+    "addr:province": "大阪府",
+    "addr:suburb": "淀川区",
+    "amenity": "pub",
+    "check_date": "2025-06-18",
+    "contact:instagram": "hanayoshi0220",
+    "level": "0",
+    "name": "鉄板バルHANAYOSHI",
+    "name:ja": "鉄板バルHANAYOSHI"
+  }
+},
+{
+  "type": "node",
+  "id": 12141119152,
+  "lat": 34.7385959,
+  "lon": 135.4847381,
+  "tags": {
+    "addr:block_number": "3番",
+    "addr:city": "大阪市",
+    "addr:housenumber": "18号",
+    "addr:neighbourhood": "3丁目",
+    "addr:postcode": "532-0006",
+    "addr:province": "大阪府",
+    "addr:quarter": "西三国",
+    "addr:suburb": "淀川区",
+    "check_date": "2024-08-28",
+    "contact:instagram": "gekiyasu.komachi",
+    "fixme:type": "コスメ",
+    "name": "ゲキヤスコマチ",
+    "shop": "houseware"
+  }
+},
+{
+  "type": "node",
+  "id": 12167450570,
+  "lat": 34.7416782,
+  "lon": 135.4917510,
+  "tags": {
+    "addr:block_number": "14番",
+    "addr:city": "大阪市",
+    "addr:housenumber": "1号",
+    "addr:neighbourhood": "1丁目",
+    "addr:postcode": "532-0006",
+    "addr:province": "大阪府",
+    "addr:quarter": "西三国",
+    "addr:suburb": "淀川区",
+    "amenity": "cafe",
+    "check_date": "2025-06-10",
+    "contact:instagram": "mayumi.s.1954",
+    "name": "カフェ パーク",
+    "outdoor_seating": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 12167450571,
+  "lat": 34.7374913,
+  "lon": 135.4827959,
+  "tags": {
+    "addr:block_number": "10番",
+    "addr:city": "大阪市",
+    "addr:housenumber": "17号",
+    "addr:neighbourhood": "3丁目",
+    "addr:postcode": "532-0033",
+    "addr:province": "大阪府",
+    "addr:quarter": "新高",
+    "addr:suburb": "淀川区",
+    "amenity": "pub",
+    "check_date": "2024-09-05",
+    "contact:instagram": "shukou0329",
+    "name": "スタンディングバー酒甲",
+    "website": "https://shu-kou.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 12167450572,
+  "lat": 34.7399667,
+  "lon": 135.4954424,
+  "tags": {
+    "addr:block_number": "18番",
+    "addr:city": "大阪市",
+    "addr:housenumber": "9号",
+    "addr:neighbourhood": "4丁目",
+    "addr:postcode": "532-0002",
+    "addr:province": "大阪府",
+    "addr:quarter": "東三国",
+    "addr:suburb": "淀川区",
+    "amenity": "restaurant",
+    "check_date": "2024-09-10",
+    "contact:instagram": "courage_2308",
+    "cuisine": "italian",
+    "name": "COURAGE"
+  }
+},
+{
+  "type": "node",
+  "id": 12167574868,
+  "lat": 34.7354256,
+  "lon": 135.4844622,
+  "tags": {
+    "addr:city": "大阪市",
+    "addr:floor": "0",
+    "addr:housenumber": "淀川区三国本町2-16-21",
+    "addr:neighbourhood": "1丁目",
+    "addr:postcode": "532-0005",
+    "addr:province": "大阪府",
+    "addr:quarter": "西三国",
+    "addr:suburb": "淀川区",
+    "check_date": "2026-06-01",
+    "contact:instagram": "gute2015",
+    "craft": "confectionery",
+    "cuisine": "cake",
+    "drive_through": "no",
+    "name": "パティスリー グーテ",
+    "name:en": "patisserie gu-te",
+    "shop": "pastry"
+  }
+},
+{
+  "type": "node",
+  "id": 12167610786,
+  "lat": 34.7399222,
+  "lon": 135.5009793,
+  "tags": {
+    "addr:block_number": "20番",
+    "addr:city": "大阪市",
+    "addr:housenumber": "2号",
+    "addr:neighbourhood": "1丁目",
+    "addr:postcode": "532-0002",
+    "addr:province": "大阪府",
+    "addr:quarter": "東三国",
+    "addr:suburb": "淀川区",
+    "amenity": "fast_food",
+    "check_date": "2026-02-20",
+    "contact:instagram": "omusubi_on",
+    "cuisine": "おにぎり;regional",
+    "drive_through": "no",
+    "name": "恩結び-on-",
+    "takeaway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 12168088286,
+  "lat": 34.7390375,
+  "lon": 135.4892178,
+  "tags": {
+    "addr:block_number": "7",
+    "addr:city": "大阪市",
+    "addr:housenumber": "9",
+    "addr:neighbourhood": "西三国二丁目",
+    "addr:postcode": "532-0006",
+    "addr:province": "大阪府",
+    "addr:suburb": "淀川区",
+    "contact:instagram": "saikoudou",
+    "craft": "confectionery",
+    "cuisine": "japanese",
+    "name": "彩甲堂",
+    "shop": "confectionery",
+    "website": "https://saikoudou-osaka.com/wagashi/"
+  }
+},
+{
+  "type": "node",
+  "id": 12168207781,
+  "lat": 34.7388377,
+  "lon": 135.4864491,
+  "tags": {
+    "addr:block_number": "17番",
+    "addr:city": "大阪市",
+    "addr:housenumber": "2号",
+    "addr:neighbourhood": "3丁目",
+    "addr:postcode": "532-0006",
+    "addr:province": "大阪府",
+    "addr:quarter": "西三国",
+    "addr:suburb": "淀川区",
+    "check_date": "2025-06-07",
+    "clothes": "children;文具;雑貨;駄菓子",
+    "contact:instagram": "reminisce_2021",
+    "name": "reminisce",
+    "name:ja": "レミニス",
+    "shop": "clothes"
+  }
+},
+{
+  "type": "node",
+  "id": 12168219654,
+  "lat": 34.7442205,
+  "lon": 135.4923919,
+  "tags": {
+    "addr:block_number": "21番",
+    "addr:city": "大阪市",
+    "addr:housenumber": "43号 103",
+    "addr:neighbourhood": "1丁目",
+    "addr:postcode": "532-0006",
+    "addr:province": "大阪府",
+    "addr:quarter": "西三国",
+    "addr:suburb": "淀川区",
+    "amenity": "social_facility",
+    "name": "合同会社コージープレイス",
+    "social_facility": "ambulatory_care",
+    "website": "https://www.cozyplacellc.jp"
+  }
+},
+{
+  "type": "node",
+  "id": 12193808822,
+  "lat": 34.7398453,
+  "lon": 135.4907109,
+  "tags": {
+    "addr:block_number": "3番",
+    "addr:city": "大阪市",
+    "addr:housenumber": "29号",
+    "addr:neighbourhood": "1丁目",
+    "addr:postcode": "532-0006",
+    "addr:province": "大阪府",
+    "addr:quarter": "西三国",
+    "addr:suburb": "淀川区",
+    "amenity": "community_centre",
+    "name": "西淀川・淀川健康友の会 ふれあい三国支部 ふれあいセンター",
+    "website": "https://fc-ai.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 12204987985,
+  "lat": 34.7384303,
+  "lon": 135.4934829,
+  "tags": {
+    "addr:block_number": "2番地",
+    "addr:city": "大阪市",
+    "addr:housenumber": "1 1階",
+    "addr:neighbourhood": "3丁目",
+    "addr:postcode": "532-0004",
+    "addr:province": "大阪府",
+    "addr:quarter": "西宮原",
+    "addr:room": "102",
+    "addr:suburb": "淀川区",
+    "amenity": "language_school",
+    "name": "ECCジュニア西宮原3丁目教室",
+    "website": "https://eccjuniorbs.jp/ht272129/"
+  }
+},
+{
+  "type": "node",
+  "id": 12211634849,
+  "lat": 34.7423094,
+  "lon": 135.4980767,
+  "tags": {
+    "addr:block_number": "2番地",
+    "addr:city": "大阪市",
+    "addr:housenumber": "19号",
+    "addr:neighbourhood": "5丁目",
+    "addr:postcode": "532-0002",
+    "addr:province": "大阪府",
+    "addr:quarter": "東三国",
+    "addr:suburb": "淀川区",
+    "amenity": "cafe",
+    "check_date": "2025-06-10",
+    "contact:instagram": "kounoucoffeeshop",
+    "cuisine": "coffee_shop",
+    "name": "KOUNOU-COFFEE",
+    "outdoor_seating": "no",
+    "website": "https://kounou-coffee.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 12893872342,
+  "lat": 34.7384412,
+  "lon": 135.4843592,
+  "tags": {
+    "addr:block_number": "3番",
+    "addr:city": "大阪市",
+    "addr:housenumber": "7号",
+    "addr:neighbourhood": "3丁目",
+    "addr:postcode": "532-0006",
+    "addr:province": "大阪府",
+    "addr:quarter": "西三国",
+    "addr:suburb": "淀川区",
+    "check_date": "2025-06-13",
+    "contact:instagram": "astilhotel_shinosaka",
+    "contact:twitter": "astil_shinosaka",
+    "name": "ASTIL HOTEL",
+    "name:ja": "アスティルホテル新大阪プレシャス",
+    "tourism": "hotel",
+    "website": "https://www.astilhotel.jp/shinosaka/"
+  }
+},
+{
+  "type": "node",
+  "id": 12893898051,
+  "lat": 34.7390865,
+  "lon": 135.4874639,
+  "tags": {
+    "amenity": "restaurant",
+    "check_date": "2025-06-07",
+    "cuisine": "korean",
+    "name": "韓国料理 CHEONGANG"
+  }
+},
+{
+  "type": "node",
+  "id": 12893905089,
+  "lat": 34.7383390,
+  "lon": 135.4857905,
+  "tags": {
+    "addr:block_number": "2番",
+    "addr:city": "大阪市",
+    "addr:housenumber": "15号2F",
+    "addr:neighbourhood": "3丁目",
+    "addr:postcode": "532-0006",
+    "addr:province": "大阪府",
+    "addr:quarter": "西三国",
+    "addr:suburb": "淀川区",
+    "amenity": "bar",
+    "check_date": "2025-10-28",
+    "contact:instagram": "kanna.min",
+    "contact:twitter": "k_setani",
+    "name": "スナック 和灯",
+    "opening_hours": "Mo-Tu 20:00-24:00 Th-Fr 20:00-24:00 Sa-Su 11:00-24:00"
+  }
+},
+{
+  "type": "node",
+  "id": 12893931371,
+  "lat": 34.7381588,
+  "lon": 135.4858758,
+  "tags": {
+    "addr:block_number": "25番",
+    "addr:city": "大阪市",
+    "addr:housenumber": "18号",
+    "addr:neighbourhood": "3丁目",
+    "addr:postcode": "532-0005",
+    "addr:province": "大阪府",
+    "addr:quarter": "三国本町",
+    "addr:suburb": "淀川区",
+    "check_date": "2026-05-31",
+    "contact:instagram": "uia.mikuni",
+    "level": "0",
+    "name": "uia",
+    "name:ja": "uia",
+    "shop": "clothes",
+    "website": "https://www.uiamikuni.net/",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 12894107250,
+  "lat": 34.7418295,
+  "lon": 135.4971622,
+  "tags": {
+    "addr:block_number": "6番地",
+    "addr:city": "大阪市",
+    "addr:housenumber": "10号",
+    "addr:neighbourhood": "5丁目",
+    "addr:postcode": "532-0002",
+    "addr:province": "大阪府",
+    "addr:quarter": "東三国",
+    "addr:suburb": "淀川区",
+    "amenity": "restaurant",
+    "check_date": "2025-06-13",
+    "contact:instagram": "carnelian2955",
+    "name": "洋食カーネリアン",
+    "name:ja": "洋食カーネリアン"
+  }
+},
+{
+  "type": "node",
+  "id": 12894108608,
+  "lat": 34.7418516,
+  "lon": 135.4969834,
+  "tags": {
+    "addr:block_number": "6番地",
+    "addr:city": "大阪市",
+    "addr:housenumber": "2号 201",
+    "addr:neighbourhood": "5丁目",
+    "addr:postcode": "532-0002",
+    "addr:province": "大阪府",
+    "addr:quarter": "東三国",
+    "addr:suburb": "淀川区",
+    "check_date": "2025-06-13",
+    "contact:instagram": "solve_beauty_salon",
+    "level": "1",
+    "name": "SOLVE beauty salon",
+    "shop": "beauty"
+  }
+},
+{
+  "type": "node",
+  "id": 12894386267,
+  "lat": 34.7391234,
+  "lon": 135.4903237,
+  "tags": {
+    "addr:block_number": "3番",
+    "addr:city": "大阪市",
+    "addr:housenumber": "14号",
+    "addr:neighbourhood": "1丁目",
+    "addr:postcode": "532-0006",
+    "addr:province": "大阪府",
+    "addr:quarter": "西三国",
+    "addr:suburb": "淀川区",
+    "amenity": "restaurant",
+    "check_date": "2025-06-07",
+    "contact:instagram": "kokorahen_",
+    "cuisine": "ramen",
+    "name": "ここらへん"
+  }
+},
+{
+  "type": "node",
+  "id": 12901109844,
+  "lat": 34.7385281,
+  "lon": 135.4936213,
+  "tags": {
+    "addr:block_number": "２番地",
+    "addr:city": "大阪市",
+    "addr:housenumber": "１号 ７０１",
+    "addr:neighbourhood": "３丁目",
+    "addr:postcode": "532-0004",
+    "addr:province": "大阪府",
+    "addr:quarter": "西宮原",
+    "addr:suburb": "淀川区",
+    "beauty": "spa",
+    "check_date": "2025-06-10",
+    "contact:instagram": "nie.mattariii",
+    "name": "にぇんチ",
+    "shop": "beauty"
+  }
+},
+{
+  "type": "node",
+  "id": 12905884168,
+  "lat": 34.7355087,
+  "lon": 135.4814170,
+  "tags": {
+    "addr:block_number": "10番",
+    "addr:city": "大阪市",
+    "addr:housenumber": "25号",
+    "addr:neighbourhood": "4丁目",
+    "addr:postcode": "532-0033",
+    "addr:province": "大阪府",
+    "addr:quarter": "新高",
+    "addr:suburb": "淀川区",
+    "contact:instagram": "minkakokusanzai",
+    "craft": "carpenter",
+    "name": "建築士事務所 民家",
+    "website": "https://min-ka.jp/"
+  }
+},
+{
+  "type": "node",
+  "id": 12911903330,
+  "lat": 34.7411230,
+  "lon": 135.4973426,
+  "tags": {
+    "addr:block_number": "4番地",
+    "addr:city": "大阪市",
+    "addr:housenumber": "17号 2階、3階",
+    "addr:neighbourhood": "4丁目",
+    "addr:postcode": "532-0002",
+    "addr:province": "大阪府",
+    "addr:quarter": "東三国",
+    "addr:suburb": "淀川区",
+    "beauty": "spa",
+    "check_date": "2025-06-13",
+    "contact:instagram": "koe._yomogimushi",
+    "contact:website": "https://beauty.hotpepper.jp/kr/slnH000651574/?cstt=2&wak=KPSC200404_s_link_salontop",
+    "fixme:type": "サロン",
+    "name": "Luce &koe..",
+    "name:ja": "ルーチェ",
+    "shop": "beauty"
+  }
+},
+{
+  "type": "node",
+  "id": 13190285736,
+  "lat": 34.7399072,
+  "lon": 135.5017932,
+  "tags": {
+    "amenity": "cafe",
+    "check_date": "2025-10-03",
+    "contact:instagram": "mn_coffee_okinawa_osaka",
+    "cuisine": "coffee_shop",
+    "name": "MN COFFEE OKINAWA OSAKA",
+    "name:ja": "エムエヌ コーヒー オキナワ オオサカ"
+  }
+},
+{
+  "type": "node",
+  "id": 13897945780,
+  "lat": 34.7380998,
+  "lon": 135.4858995,
+  "tags": {
+    "addr:floor": "0",
+    "amenity": "pub",
+    "check_date": "2026-05-31",
+    "contact:facebook": "https://www.facebook.com/rokugenya001/",
+    "contact:instagram": "rokugenya",
+    "contact:twitter": "rokugenya",
+    "name": "六弦家"
+  }
+},
+{
+  "type": "node",
+  "id": 13897969734,
+  "lat": 34.7392132,
+  "lon": 135.4835885,
+  "tags": {
+    "addr:floor": "0",
+    "amenity": "restaurant",
+    "check_date": "2026-05-31",
+    "contact:instagram": "juyachicken_osaka",
+    "cuisine": "korean",
+    "name": "昼耕夜鶏"
+  }
+},
+{
+  "type": "node",
+  "id": 13897985836,
+  "lat": 34.7408290,
+  "lon": 135.4866841,
+  "tags": {
+    "check_date": "2026-05-31",
+    "contact:instagram": "ayakimono_style_provider",
+    "name": "絹乃Maison『綾.』",
+    "shop": "beauty",
+    "website": "https://kinunomaison-aya.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 13898333353,
+  "lat": 34.7388590,
+  "lon": 135.4866862,
+  "tags": {
+    "check_date": "2026-05-31",
+    "contact:instagram": "torihata.to_futen.mikuni",
+    "name": "島畑豆腐店",
+    "shop": "deli"
+  }
+},
+{
+  "type": "node",
+  "id": 13898559701,
+  "lat": 34.7394156,
+  "lon": 135.4836014,
+  "tags": {
+    "amenity": "restaurant",
+    "contact:instagram": "kouraku_2022",
+    "cuisine": "korean",
+    "name": "韓食酒房 幸楽"
+  }
+},
+{
+  "type": "node",
+  "id": 13898950779,
+  "lat": 34.7397859,
+  "lon": 135.4936694,
+  "tags": {
+    "check_date": "2026-06-01",
+    "contact:instagram": "__.ka__ka",
+    "level": "0",
+    "name": "珈菓 kaka",
+    "name:ja-Hira": "かか",
+    "opening_hours": "Mo-We 10:00-18:00; Fr 10:00-18:00; PH 10:00-18:00; Sa-Su 08:00-17:00",
+    "payment:cash": "only",
+    "shop": "pastry"
+  }
+},
+{
+  "type": "node",
+  "id": 13901104181,
+  "lat": 34.7408226,
+  "lon": 135.4934837,
+  "tags": {
+    "amenity": "restaurant",
+    "contact:instagram": "heaven.higashimikuni",
+    "cuisine": "curry",
+    "level": "0",
+    "name": "HeavEN 24/7",
+    "takeaway": "Mo-We 10:00-22:00; Th 10:00-17:00; Fr 10:00-22:00; Sa-Su 10:00-17:00"
+  }
+},
+{
+  "type": "node",
+  "id": 13901259342,
+  "lat": 34.7403408,
+  "lon": 135.4971692,
+  "tags": {
+    "addr:floor": "3",
+    "contact:instagram": "hodokithai",
+    "level": "2",
+    "name": "タイ古式マッサージ-ほどき-",
+    "shop": "massage",
+    "website": "https://hodoki.edisone.jp/"
+  }
+},
+{
+  "type": "node",
+  "id": 13901259348,
+  "lat": 34.7418660,
+  "lon": 135.4976758,
+  "tags": {
+    "addr:room": "301",
+    "amenity": "social_facility",
+    "contact:instagram": "yourlife_reload",
+    "contact:phone": "+81 6 6398 7771",
+    "name": "YOURLIFE Reload",
+    "name:ja": "ユアライフ・リロード",
+    "opening_hours": "10:00-17:00",
+    "social_facility": "workshop",
+    "website": "https://reload.yourlife.group/"
+  }
+},
+{
+  "type": "node",
+  "id": 13901300226,
+  "lat": 34.7411612,
+  "lon": 135.4996392,
+  "tags": {
+    "contact:twitter": "jamiru1132",
+    "name": "東三国マッサージ",
+    "shop": "massage",
+    "website": "http://higasimikunima.sakura.ne.jp/wp/"
+  }
+},
+{
+  "type": "node",
+  "id": 13904009143,
+  "lat": 34.7359489,
+  "lon": 135.4841563,
+  "tags": {
+    "addr:floor": "0",
+    "check_date": "2026-06-02",
+    "contact:instagram": "kayra_bakery_noda",
+    "name": "ケーラベーカリー三国",
+    "name:ja": "ケーラベーカリーみくに",
+    "shop": "bakery"
+  }
+},
+{
+  "type": "node",
+  "id": 13904009144,
+  "lat": 34.7400345,
+  "lon": 135.4923918,
+  "tags": {
+    "addr:floor": "0",
+    "amenity": "community_centre",
+    "check_date": "2026-06-02",
+    "community_centre": "family_centre",
+    "contact:instagram": "hugroom.osaka",
+    "name": "hugroom",
+    "name:ja": "はぐるーむ"
+  }
+},
+{
+  "type": "node",
+  "id": 13904064372,
+  "lat": 34.7437769,
+  "lon": 135.4923801,
+  "tags": {
+    "addr:floor": "2",
+    "amenity": "dancing_school",
+    "check_date": "2026-06-02",
+    "contact:instagram": "dance_school.ac",
+    "education": "dancing_school",
+    "level": "1",
+    "name": "Dance school AC",
+    "name:ja": "ダンススクールエーシー",
+    "website": "https://dance-school-ac.jimdosite.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 13907760224,
+  "lat": 34.7338648,
+  "lon": 135.4941672,
+  "tags": {
+    "addr:floor": "4",
+    "addr:room": "412",
+    "contact:instagram": "doors.eye",
+    "level": "3",
+    "name": "salon.Doors",
+    "shop": "hairdresser"
+  }
+},
+{
+  "type": "node",
+  "id": 13907760334,
+  "lat": 34.7334946,
+  "lon": 135.4934125,
+  "tags": {
+    "addr:floor": "3",
+    "contact:instagram": "tryout.inc",
+    "level": "2",
+    "name": "TRYOUT",
+    "office": "estate_agent",
+    "website": "https://tryout-inc.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 13935266683,
+  "lat": 34.7388389,
+  "lon": 135.4864703,
+  "tags": {
+    "addr:block_number": "17番",
+    "addr:city": "大阪市",
+    "addr:housenumber": "2号",
+    "addr:neighbourhood": "3丁目",
+    "addr:postcode": "532-0006",
+    "addr:province": "大阪府",
+    "addr:quarter": "西三国",
+    "addr:suburb": "淀川区",
+    "amenity": "cafe",
+    "contact:instagram": "reminisce_2021",
+    "cuisine": "テイクアウトカフェ",
+    "name": "∞end",
+    "name:ja": "エイトエンド"
+  }
+},
+{
+  "type": "node",
+  "id": 13983352687,
+  "lat": 34.7418593,
+  "lon": 135.4970250,
+  "tags": {
+    "beauty": "nails",
+    "contact:instagram": "solve_nail__teru",
+    "level": "1",
+    "name": "SOLVE nail",
+    "shop": "beauty"
+  }
+},
+{
+  "type": "way",
+  "id": 271389852,
+  "nodes": [
+    2763436090,
+    2763436091,
+    13545981444,
+    13545981445,
+    2763436093,
+    2763436094,
+    2763436095,
+    2763436090
+  ],
+  "tags": {
+    "addr:block_number": "32番",
+    "addr:city": "大阪市",
+    "addr:housenumber": "4号",
+    "addr:neighbourhood": "1丁目",
+    "addr:postcode": "532-0002",
+    "addr:province": "大阪府",
+    "addr:quarter": "東三国",
+    "addr:suburb": "淀川区",
+    "amenity": "place_of_worship",
+    "contact:instagram": "higashimikuni_jyokouji",
+    "denomination": "jodo_shinshu",
+    "name": "常光寺",
+    "religion": "buddhist"
+  }
+},
+{
+  "type": "way",
+  "id": 272227742,
+  "nodes": [
+    2771832435,
+    2771832437,
+    13907532457,
+    13907532456,
+    13907532455,
+    13907532458,
+    2771832438,
+    2771832439,
+    2771832469,
+    13098174110,
+    2771832451,
+    2771832440,
+    2771832443,
+    2771832444,
+    11472376715,
+    2771832435
+  ],
+  "tags": {
+    "addr:block_number": "35番",
+    "addr:city": "大阪市",
+    "addr:housenumber": "8号",
+    "addr:neighbourhood": "3丁目",
+    "addr:postcode": "532-0005",
+    "addr:province": "大阪府",
+    "addr:quarter": "三国本町",
+    "addr:suburb": "淀川区",
+    "amenity": "college",
+    "check_date": "2026-05-31",
+    "contact:instagram": "osakabunka",
+    "name": "ヴォートレイルファッションアカデミー",
+    "source": "Bing,2011-4",
+    "website": "https://voutrail.jp/"
+  }
+},
+{
+  "type": "node",
+  "id": 2763436090,
+  "lat": 34.7409889,
+  "lon": 135.4988631
+},
+{
+  "type": "node",
+  "id": 2763436091,
+  "lat": 34.7409914,
+  "lon": 135.4991730
+},
+{
+  "type": "node",
+  "id": 2763436093,
+  "lat": 34.7406938,
+  "lon": 135.4992272
+},
+{
+  "type": "node",
+  "id": 2763436094,
+  "lat": 34.7406834,
+  "lon": 135.4989492
+},
+{
+  "type": "node",
+  "id": 2763436095,
+  "lat": 34.7407353,
+  "lon": 135.4988693
+},
+{
+  "type": "node",
+  "id": 2771832435,
+  "lat": 34.7360166,
+  "lon": 135.4839360
+},
+{
+  "type": "node",
+  "id": 2771832437,
+  "lat": 34.7360809,
+  "lon": 135.4844663
+},
+{
+  "type": "node",
+  "id": 2771832438,
+  "lat": 34.7364940,
+  "lon": 135.4844370
+},
+{
+  "type": "node",
+  "id": 2771832439,
+  "lat": 34.7364812,
+  "lon": 135.4841563
+},
+{
+  "type": "node",
+  "id": 2771832440,
+  "lat": 34.7362232,
+  "lon": 135.4840177
+},
+{
+  "type": "node",
+  "id": 2771832443,
+  "lat": 34.7360540,
+  "lon": 135.4840276
+},
+{
+  "type": "node",
+  "id": 2771832444,
+  "lat": 34.7360469,
+  "lon": 135.4839330
+},
+{
+  "type": "node",
+  "id": 2771832451,
+  "lat": 34.7362241,
+  "lon": 135.4840661
+},
+{
+  "type": "node",
+  "id": 2771832469,
+  "lat": 34.7364146,
+  "lon": 135.4841608
+},
+{
+  "type": "node",
+  "id": 11472376715,
+  "lat": 34.7360315,
+  "lon": 135.4839345
+},
+{
+  "type": "node",
+  "id": 13098174110,
+  "lat": 34.7364102,
+  "lon": 135.4840512
+},
+{
+  "type": "node",
+  "id": 13545981444,
+  "lat": 34.7409088,
+  "lon": 135.4991754
+},
+{
+  "type": "node",
+  "id": 13545981445,
+  "lat": 34.7409091,
+  "lon": 135.4991880
+},
+{
+  "type": "node",
+  "id": 13907532455,
+  "lat": 34.7363154,
+  "lon": 135.4846953
+},
+{
+  "type": "node",
+  "id": 13907532456,
+  "lat": 34.7361545,
+  "lon": 135.4847231
+},
+{
+  "type": "node",
+  "id": 13907532457,
+  "lat": 34.7361110,
+  "lon": 135.4847047
+},
+{
+  "type": "node",
+  "id": 13907532458,
+  "lat": 34.7362882,
+  "lon": 135.4844492
+}
+
   ]
 }

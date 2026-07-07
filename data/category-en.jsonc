@@ -30,6 +30,7 @@
             "coworking_space": "coworking space",
             "crematorium": "crematorium",
             "cinema": "cinema",
+            "dancing_school": "dancing school",
             "dentist": "dentist",
             "doctors": "doctor",
             "dojo": "dojo",
@@ -443,7 +444,8 @@
         },
         "healthcare": {
             "healthcare:speciality": {
-                "acupuncture": "acupuncture"
+                "acupuncture": "acupuncture",
+                "chiropractic": "chiropractic"
             }
         },
         "restaurant": {

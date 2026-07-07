@@ -33,6 +33,7 @@
                 "courthouse": "courthouse.png",
                 "coworking_space": "commercial.png",
                 "crematorium": "marker-stroked.png",
+                "dancing_school": "music.png",
                 "dentist": "dentist.png",
                 "doctors": "doctor.png",
                 "dojo": "pitch.png",
@@ -425,6 +426,12 @@
             "amenity=drinking_water": {
                 "bottle": {
                     "yes": "water_bottle.png"
+                }
+            },
+            "healthcare=alternative": {
+                "healthcare:speciality": {
+                    "acupuncture": "house-medical-solid.png",
+                    "chiropractic": "house-medical-solid.png"
                 }
             },
             "tourism=information": {

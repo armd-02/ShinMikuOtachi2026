@@ -131,7 +131,7 @@ class CMapMaker {
                     // document.title = glot.get("site_title"); // Google検索のインデックス反映が読めないので一旦なし
                     winCont.setSidebar(Conf.sideBar.initView) // サイドバーの初期表示設定
                     cMapMaker.clearDatail() // 詳細モーダルの内容をクリア
-                    
+
                     const init_close = function () {
                         let cat = (UrlParams.category !== "" && UrlParams.category !== undefined) ? UrlParams.category : Conf.selectItem.default;
                         cat = decodeURI(cat);
@@ -324,7 +324,7 @@ class CMapMaker {
     makeImages(view) {
         if (view) {
             let acts = []
-            let rows = listTable.getFilterList()
+            let rows = basic.shuffleArray(listTable.getFilterList())
             rows.forEach(row => {
                 let act = poiCont.get_actid(row[0])
                 if (act !== undefined) {
@@ -512,6 +512,8 @@ class CMapMaker {
                     cMapMaker.changeMode("map")
                     this.detail = true
                     this.openOSMid = osmid
+                    const element = document.getElementById('bottom-pane');
+                    element.scrollTo({ top: 0, behavior: 'smooth' });
                     resolve()
                 })
             }

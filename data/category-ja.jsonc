@@ -30,6 +30,7 @@
             "coworking_space": "コワーキングスペース",
             "crematorium": "火葬場",
             "cinema": "映画館",
+            "dancing_school": "ダンススクール",
             "dentist": "歯医者",
             "doctors": "医者",
             "dojo": "道場",
@@ -443,7 +444,8 @@
         },
         "healthcare": {
             "healthcare:speciality": {
-                "acupuncture": "鍼灸院"
+                "acupuncture": "鍼灸院",
+                "chiropractic": "カイロプラクティック"
             }
         },
         "restaurant": {
