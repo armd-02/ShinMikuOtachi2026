@@ -111,12 +111,13 @@ class CMapMaker {
                     console.log("initialize: gSheet, static, MapLibre OK.");
                     mapLibre.addControl("top-left", "baselist", basehtml, "mapLibre-control m-0 p-0"); // Make: base list
                     setBGImage(Conf.listTable.backgroundImage)
+                    mapLibre.addControl("bottom-right", "dummy", " ", "");
                     if (Conf.etc.localSave !== "") filter_menu.classList.remove('d-none')
-                    mapLibre.addNavigation("bottom-right");
                     if (Conf.map.changeMap) mapLibre.addControl("bottom-right", "maplist", "<button onclick='cMapMaker.changeMap()'><i class='fas fa-layer-group fa-lg'></i></button>", "maplibregl-ctrl-group");
-                    mapLibre.addControl("bottom-left", "images", "", "showcase mb-4"); // add images
-                    mapLibre.addControl("bottom-left", "globalStatus", "", "vw-100 d-flex align-items-center justify-content-center gap-2");
-                    globalStatus.innerHTML = '<div id="globalSpinner" class="spinner-border text-primary d-none"></div><span id="globalMessage" class="globalMessage"></span>';
+                    mapLibre.addControl("bottom-left", "images", "", "showcase"); // add images
+                    mapLibre.addNavigation("bottom-right");
+                    mapLibre.addControl("bottom-left", "globalStatus", "", "m-0");
+                    globalStatus.innerHTML = '<div id="globalSpinner" class="spinner-border text-primary m-1 d-none"></div><span id="globalMessage" class="globalMessage"></span>';
                     winCont.playback(Conf.listTable.playback.view); // playback control view:true/false
                     winCont.download(Conf.listTable.download); // download view:true/false
                     cMapMaker.changeMode("list");
@@ -343,6 +344,7 @@ class CMapMaker {
             })
             if (acts.length > 0) {
                 images.classList.remove("d-none");
+                dummy.style.height = images.offsetHeight + "px";	// 画像表示領域の高さをダミーに設定
                 winCont.setImages(images, acts, Conf.etc.loadingUrl, Conf.thumbnail.limits)
                 if (this.scrollHints == 0) winCont.scrollHint(); this.scrollHints++;
             } else {

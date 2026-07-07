@@ -105,15 +105,24 @@ li::before {
 }
 
 div.showcase {
+    margin: 0px 0px 0px 0px !important;
+    padding: 0px !important;
     overflow-x: auto;
     width: fit-content;
-    max-width: calc(100vw - 72px);
+    max-width: calc(100vw - 0px);
     display: flex;
     user-select: none;
 
     /* padding-right はイベント領域を広げるので避ける */
     padding-right: 0 !important;
 }
+
+@media screen and (width >=1080px) {
+    div.showcase {
+        margin: 0px 0px 24px 0px !important;
+    }
+}
+
 
 div.showcase::-webkit-scrollbar {
     display: block;
@@ -272,7 +281,7 @@ tr.selected td {
     overflow: hidden;
 }
 
-.list-icon{
+.list-icon {
     width: 20px;
     height: 20px;
     margin-right: 8px;
