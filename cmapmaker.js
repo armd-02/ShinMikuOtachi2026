@@ -114,7 +114,7 @@ class CMapMaker {
                     if (Conf.etc.localSave !== "") filter_menu.classList.remove('d-none')
                     mapLibre.addNavigation("bottom-right");
                     if (Conf.map.changeMap) mapLibre.addControl("bottom-right", "maplist", "<button onclick='cMapMaker.changeMap()'><i class='fas fa-layer-group fa-lg'></i></button>", "maplibregl-ctrl-group");
-                    mapLibre.addControl("bottom-left", "images", "", "showcase"); // add images
+                    mapLibre.addControl("bottom-left", "images", "", "showcase mb-4"); // add images
                     mapLibre.addControl("bottom-left", "globalStatus", "", "vw-100 d-flex align-items-center justify-content-center gap-2");
                     globalStatus.innerHTML = '<div id="globalSpinner" class="spinner-border text-primary d-none"></div><span id="globalMessage" class="globalMessage"></span>';
                     winCont.playback(Conf.listTable.playback.view); // playback control view:true/false

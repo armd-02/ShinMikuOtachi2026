@@ -255,7 +255,6 @@ tr.selected td {
     width: 100vw;
     height: 100vh;
     z-index: 9999;
-    position: absolute;
     background-color: #000000A0;
     top: 0px;
     left: 0px;
