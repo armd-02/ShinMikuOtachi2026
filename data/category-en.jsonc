@@ -550,6 +550,12 @@
                 "private": "private"
             }
         },
+        "shop": {
+            "beauty": {
+                "nails": "nails",
+                "spa;waxing": "spa/waxing"
+            }
+        },
         "social_facility": {
             "social_facility": {
                 "shelter": "temporary sleeping"

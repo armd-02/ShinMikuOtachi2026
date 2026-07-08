@@ -550,6 +550,13 @@
                 "private": "私用"
             }
         },
+        "shop": {
+            "beauty": {
+                "nails": "ネイルサロン",
+                "spa": "エステ",
+                "spa;waxing": "エステ/脱毛"
+            }
+        },
         "social_facility": {
             "social_facility": {
                 "shelter": "一時避難所"

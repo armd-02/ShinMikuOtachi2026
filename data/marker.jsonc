@@ -434,6 +434,30 @@
                     "chiropractic": "house-medical-solid.png"
                 }
             },
+            "natural=tree": {
+                "species": {
+                    "Cherry blossom": "sakura.png",
+                    "Cerasus itosakura": "sakura.png",
+                    "Cerasus × yedoensis": "sakura.png"
+                },
+                "species:en": {
+                    "Cherry blossom": "sakura.png",
+                    "Cerasus itosakura": "sakura.png",
+                    "Cerasus × yedoensis": "sakura.png"
+                }
+            },
+            "man_made=ceremonial_gate": {
+                "ceremonial_gate": {
+                    "torii": "torii.png"
+                }
+            },
+            "shop=beauty": {
+                "beauty": {
+                    "nails": "polished_nail.png",
+                    "spa": "lipstick.png",
+                    "spa;waxing": "lipstick.png"
+                }
+            },
             "tourism=information": {
                 "information": {
                     "audioguide": "information.png",
@@ -462,23 +486,6 @@
                     "christian": "cross_christ.png",
                     "shinto": "torii.png",
                     "buddhist": "buddhist.png"
-                }
-            },
-            "natural=tree": {
-                "species": {
-                    "Cherry blossom": "sakura.png",
-                    "Cerasus itosakura": "sakura.png",
-                    "Cerasus × yedoensis": "sakura.png"
-                },
-                "species:en": {
-                    "Cherry blossom": "sakura.png",
-                    "Cerasus itosakura": "sakura.png",
-                    "Cerasus × yedoensis": "sakura.png"
-                }
-            },
-            "man_made=ceremonial_gate": {
-                "ceremonial_gate": {
-                    "torii": "torii.png"
                 }
             }
         }
