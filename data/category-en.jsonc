@@ -553,6 +553,7 @@
         "shop": {
             "beauty": {
                 "nails": "nails",
+                "spa": "spa",
                 "spa;waxing": "spa/waxing"
             }
         },

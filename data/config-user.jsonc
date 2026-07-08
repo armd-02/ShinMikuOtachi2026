@@ -112,7 +112,7 @@
         "targetName": "activity"
     },
     "static": {
-        "use": false    , // true:静的データを利用する / false:OverpassAPIを利用する
+        "use": true    , // true:静的データを利用する / false:OverpassAPIを利用する
         "osmjsons": [
             "./data/stores.json"
         ]
