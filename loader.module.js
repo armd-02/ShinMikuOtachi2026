@@ -13,8 +13,7 @@
         styles = [],
         scripts = [],
         scriptGroups = [],
-        gId = "",
-        gaCookieDomain = ""
+        gId = ""
     } = manifest;
 
     const trimNonEmpty = (items) =>
@@ -86,7 +85,6 @@
     }
 
     // Google Analytics は本体初期化を待たせない。
-    // gtag.js の URL は ?id=G-XXXX が正しい。
     if (gId) {
         window.dataLayer = window.dataLayer || [];
         window.gtag = window.gtag || function () {
@@ -96,9 +94,6 @@
         window.gtag("js", new Date());
 
         const gaConfig = {};
-        if (gaCookieDomain) {
-            gaConfig.cookie_domain = gaCookieDomain;
-        }
         window.gtag("config", gId, gaConfig);
 
         loadScript(`https://www.googletagmanager.com/gtag/js?id=${encodeURIComponent(gId)}`, {
